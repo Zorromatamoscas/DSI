@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pedro\\Documents\\GitHub\\DSI\\P4RafaelVilchesHernández\\P4RafaelVilchesHernández\\P4RafaelVilchesHernández.csproj": {}
+    "C:\\Users\\pedro\\OneDrive\\Documentos\\FP2\\DSI\\P4RafaelVilchesHernández\\P4RafaelVilchesHernández\\P4RafaelVilchesHernández.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pedro\\Documents\\GitHub\\DSI\\P4RafaelVilchesHernández\\P4RafaelVilchesHernández\\P4RafaelVilchesHernández.csproj": {
+    "C:\\Users\\pedro\\OneDrive\\Documentos\\FP2\\DSI\\P4RafaelVilchesHernández\\P4RafaelVilchesHernández\\P4RafaelVilchesHernández.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pedro\\Documents\\GitHub\\DSI\\P4RafaelVilchesHernández\\P4RafaelVilchesHernández\\P4RafaelVilchesHernández.csproj",
+        "projectUniqueName": "C:\\Users\\pedro\\OneDrive\\Documentos\\FP2\\DSI\\P4RafaelVilchesHernández\\P4RafaelVilchesHernández\\P4RafaelVilchesHernández.csproj",
         "projectName": "P4RafaelVilchesHernández",
-        "projectPath": "C:\\Users\\pedro\\Documents\\GitHub\\DSI\\P4RafaelVilchesHernández\\P4RafaelVilchesHernández\\P4RafaelVilchesHernández.csproj",
+        "projectPath": "C:\\Users\\pedro\\OneDrive\\Documentos\\FP2\\DSI\\P4RafaelVilchesHernández\\P4RafaelVilchesHernández\\P4RafaelVilchesHernández.csproj",
         "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pedro\\Documents\\GitHub\\DSI\\P4RafaelVilchesHernández\\P4RafaelVilchesHernández\\obj\\",
+        "outputPath": "C:\\Users\\pedro\\OneDrive\\Documentos\\FP2\\DSI\\P4RafaelVilchesHernández\\P4RafaelVilchesHernández\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

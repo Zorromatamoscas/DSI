@@ -67,16 +67,21 @@ namespace P4
         {
             e.Data.RequestedOperation = DataPackageOperation.Copy;
                 Point PD = e.GetPosition(MiCanvas);
-            Image MiDron = new Image();
+            ContentControl MiDron = new ContentControl();
+            MiDron.IsTabStop = true;
+            MiDron.UseSystemFocusVisuals = true;
+            Image MiDronImage = new Image();
             var source = await e.DataView.GetTextAsync();
             var realSource = System.IO.Directory.GetCurrentDirectory() + "\\" + source;
-            MiDron.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(realSource));
-            MiDron.Width = ImageSlider.Value;
-            MiDron.Height = ImageSlider.Value;
+            MiDronImage.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(realSource));
+            MiDronImage.Width = ImageSlider.Value;
+            MiDronImage.Height = ImageSlider.Value;
             //MiCanvas.Children.Clear();
+            MiDron.Content = MiDronImage;
             MiCanvas.Children.Add(MiDron);
             MiDron.SetValue(Canvas.LeftProperty, PD.X);
             MiDron.SetValue(Canvas.TopProperty,PD.Y);
+            MiDron.KeyDown += MiDron_KeyDown;
 
 
             CompositeTransform Transformacion = new CompositeTransform();
@@ -86,15 +91,65 @@ namespace P4
             MiDron.RenderTransform = Transformacion;
             MiDron.ManipulationMode = ManipulationModes.All;
             MiDron.ManipulationDelta += MiDron_ManipulationDelta;
+            MiDron.IsFocusEngagementEnabled= true;
+            MiDron.XYFocusKeyboardNavigation = XYFocusKeyboardNavigationMode.Enabled;
 
+
+        }
+
+        private void MiDron_KeyDown(object sender, KeyRoutedEventArgs e)
+        {
+            if(e.Key== Windows.System.VirtualKey.A)
+            {
+                var obj = sender as ContentControl;
+                CompositeTransform Transformacion = obj.RenderTransform as CompositeTransform;
+                Transformacion.TranslateX -= 1;
+                obj.RenderTransform = Transformacion;
+            }
+            else if(e.Key == Windows.System.VirtualKey.D)
+            {
+                var obj = sender as ContentControl;
+                CompositeTransform Transformacion = obj.RenderTransform as CompositeTransform;
+                Transformacion.TranslateX += 1;
+                obj.RenderTransform = Transformacion;
+            }
+            else if (e.Key == Windows.System.VirtualKey.W)
+            {
+                var obj = sender as ContentControl;
+                CompositeTransform Transformacion = obj.RenderTransform as CompositeTransform;
+                Transformacion.TranslateY -= 1;
+                obj.RenderTransform = Transformacion;
+            }
+            else if (e.Key == Windows.System.VirtualKey.S)
+            {
+                var obj = sender as ContentControl;
+                CompositeTransform Transformacion = obj.RenderTransform as CompositeTransform;
+                Transformacion.TranslateY += 1;
+                obj.RenderTransform = Transformacion;
+            }
+            else if (e.Key == Windows.System.VirtualKey.Q)
+            {
+                var obj = sender as ContentControl;
+                CompositeTransform Transformacion = obj.RenderTransform as CompositeTransform;
+                Transformacion.Rotation -= 1;
+                obj.RenderTransform = Transformacion;
+            }
+            else if (e.Key == Windows.System.VirtualKey.E)
+            {
+                var obj = sender as ContentControl;
+                CompositeTransform Transformacion = obj.RenderTransform as CompositeTransform;
+                Transformacion.Rotation += 1;
+                obj.RenderTransform = Transformacion;
+            }
         }
 
         private void MiDron_ManipulationDelta(object sender, ManipulationDeltaRoutedEventArgs e)
         {
-            var obj = sender as Image;
+
+            var obj = sender as ContentControl;
             CompositeTransform Transformacion = obj.RenderTransform as CompositeTransform ;
-            Transformacion.TranslateX += e.Position.X;
-            Transformacion.TranslateY += e.Position.Y;
+            Transformacion.TranslateX -= e.Position.X;
+            Transformacion.TranslateY -= e.Position.Y;
             Transformacion.Rotation += e.Delta.Rotation;
             obj.RenderTransform = Transformacion;
         }
@@ -127,10 +182,12 @@ DragItemsStartingEventArgs e)
             // Si estabas moviendo el mapa, coge la posicion actual del puntero cada vez que lo muevas y restale la inicial para sacar 
             // cuanto tienes que mover la imagen y hacia donde
             // Saca tambien el zoom factor del scrollview del XAML para sus cosas raras
+            var scroll = sender as ScrollViewer;
             if (ArrastreMapa)
             {
-                myScrollView.ChangeView(e.GetCurrentPoint(e.OriginalSource as Image).Position.X - PtArrastreMapa.Position.X,
-                   e.GetCurrentPoint(e.OriginalSource as Image).Position.Y - PtArrastreMapa.Position.Y, myScrollView.ZoomFactor);
+                myScrollView.ChangeView(scroll.HorizontalOffset - (e.GetCurrentPoint( e.OriginalSource as Image).Position.X - PtArrastreMapa.Position.X),
+                   scroll.VerticalOffset-(e.GetCurrentPoint(e.OriginalSource as Image).Position.Y - PtArrastreMapa.Position.Y), myScrollView.ZoomFactor);
+                e.Handled = true;
             }
         }
 

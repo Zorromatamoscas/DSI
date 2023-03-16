@@ -64,22 +64,29 @@
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
         
-        <CommandBar Grid.ColumnSpan="2">
+        <CommandBar Grid.ColumnSpan="2" TabIndex="1">
             <AppBarButton Icon="SelectAll" Label="Todos" />
             <AppBarButton Icon="ClearSelection" Label="Ninguno" />
-            <AppBarButton Icon="FontSize"  Label="Zoom" Flyout="{StaticResource zoomFlyout}"/>
+            <AppBarButton Icon="FontSize"  Label="Zoom" Flyout="{StaticResource zoomFlyout}" AccessKey="A">
+                <AppBarButton.KeyboardAccelerators>
+                    <KeyboardAccelerator 
+                        Modifiers="Control" 
+                        Key="A" />
+                </AppBarButton.KeyboardAccelerators>
+            </AppBarButton>
             <CommandBar.Content>
                 <TextBlock Text="Práctica 4 de DSI" Margin="20,0,0,0" FontSize="30"  VerticalAlignment="Center"/>
             </CommandBar.Content>
             </CommandBar>
         <ScrollViewer x:Name="myScrollView" Grid.Row="1" ZoomMode="Enabled" VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Visible"
-                      PointerPressed="ScrollViewer_PointerPressed" PointerMoved="ScrollViewer_PointerMoved" PointerReleased="ScrollViewer_PointerReleased">
+                      PointerPressed="ScrollViewer_PointerPressed" PointerMoved="ScrollViewer_PointerMoved" PointerReleased="ScrollViewer_PointerReleased"
+                      TabIndex="3" IsTabStop="True" XYFocusKeyboardNavigation="Enabled">
             <Grid>
                 <Image x:Name="Madrigal" Grid.Row="1"
                    Source="Assets/Madrigal.jpg" 
                    Stretch="Fill"  AllowDrop="True" DragOver="MiCanvas_DragOver" Drop="MiCanvas_Drop" />
         
-             <Canvas x:Name="MiCanvas" Grid.Row="1">
+             <Canvas x:Name="MiCanvas" Grid.Row="1" XYFocusKeyboardNavigation="Enabled" >
         
                 <Image x:Name="MiDron" 
                        Grid.Row="2"    Grid.Column="1" 
@@ -96,7 +103,9 @@
         <TextBlock  x:Name="Texto"  Grid.Row="2"  FontSize="30"
                     TextWrapping="Wrap" 
                     Text="Esto es una Explicación en detalle del Dron muy larga, para que se ajuste al hueco.Esto es una Explicación en detalle del Dron muy larga, para que se ajuste al hueco.Esto es una Explicación en detalle del Dron muy larga, para que se ajuste al hueco. "/>
-        <ListView x:Name="ImageGridView" 
+        <ListView x:Name="ImageGridView"
+                  IsTabStop="True"
+                  TabIndex="2"
                   Grid.Row="1" Grid.Column="1" 
                   ItemsSource= "{x:Bind ListaDrones}"
                   ItemTemplate="{StaticResource ImageGridView_DefaultItemTemplate}"
