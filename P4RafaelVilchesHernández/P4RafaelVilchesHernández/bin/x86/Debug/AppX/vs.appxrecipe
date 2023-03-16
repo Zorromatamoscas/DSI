@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>LAPTOP-I9HOU9CK</Machine>
-    <WindowsUser>pedro</WindowsUser>
+    <Machine>DESKTOP-00RMKGA</Machine>
+    <WindowsUser>Rafa</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>11a4aa7a-a9d0-4c8f-9b3a-b585cd529afc</PackageIdentityName>
     <PackageIdentityPublisher>CN=segu222</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>3F4B74DBB0920F3B8C168966FE052F8BECC1A3D3C5E82895EA506CA1F1D6085B</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>B95C262CBE5CC2422D3BD6CBC803907BCE5433B993012B4807973985CFD14CA8</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>11a4aa7a-a9d0-4c8f-9b3a-b585cd529afc_1.0.0.0_x86__f86y4dzhkna0m</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>11a4aa7a-a9d0-4c8f-9b3a-b585cd529afc_f86y4dzhkna0m!App</RegisteredUserModeAppID>
     <RegisteredPackageID>11a4aa7a-a9d0-4c8f-9b3a-b585cd529afc</RegisteredPackageID>
@@ -27,182 +27,182 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-16T11:11:30.447</Modified>
+      <Modified>2023-03-16T12:01:13.558</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\bin\x86\Debug\P4RafaelVilchesHernández.exe">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\bin\x86\Debug\P4RafaelVilchesHernández.exe">
       <PackagePath>entrypoint\P4RafaelVilchesHernández.exe</PackagePath>
-      <Modified>2023-03-16T11:11:28.611</Modified>
+      <Modified>2023-03-16T12:01:13.101</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2022-06-10T21:24:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.22000.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2022-07-15T16:17:36.000</Modified>
+      <Modified>2020-12-02T02:52:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Madrid.bmp">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Madrid.bmp">
       <PackagePath>Assets\Madrid.bmp</PackagePath>
-      <Modified>2019-02-07T11:39:44.000</Modified>
+      <Modified>2023-03-16T11:22:13.300</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Nueva imagen de mapa de bits.bmp">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Nueva imagen de mapa de bits.bmp">
       <PackagePath>Assets\Nueva imagen de mapa de bits.bmp</PackagePath>
-      <Modified>2019-03-20T11:15:33.768</Modified>
+      <Modified>2023-03-16T11:22:13.304</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Madrid.png">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Madrid.png">
       <PackagePath>Assets\Madrid.png</PackagePath>
-      <Modified>2019-03-20T11:18:41.569</Modified>
+      <Modified>2023-03-16T11:22:13.302</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2018-10-29T09:56:33.000</Modified>
+      <Modified>2023-03-16T11:22:13.296</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-29T09:56:33.000</Modified>
+      <Modified>2023-03-16T11:22:13.342</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-29T09:56:33.000</Modified>
+      <Modified>2023-03-16T11:22:13.342</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-29T09:56:33.000</Modified>
+      <Modified>2023-03-16T11:22:13.342</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-29T09:56:33.000</Modified>
+      <Modified>2023-03-16T11:22:13.342</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-29T09:56:33.000</Modified>
+      <Modified>2023-03-16T11:22:13.343</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-29T09:56:33.000</Modified>
+      <Modified>2023-03-16T11:22:13.344</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Madrigal.jpg">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Madrigal.jpg">
       <PackagePath>Assets\Madrigal.jpg</PackagePath>
-      <Modified>2022-03-07T11:04:49.593</Modified>
+      <Modified>2023-03-16T11:22:13.304</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\1.jpg">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\1.jpg">
       <PackagePath>Assets\Samples\1.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2023-03-16T11:22:13.309</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\10.jpg">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\10.jpg">
       <PackagePath>Assets\Samples\10.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2023-03-16T11:22:13.311</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\11.jpg">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\11.jpg">
       <PackagePath>Assets\Samples\11.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2023-03-16T11:22:13.312</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\12.jpg">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\12.jpg">
       <PackagePath>Assets\Samples\12.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2023-03-16T11:22:13.314</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\13.jpg">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\13.jpg">
       <PackagePath>Assets\Samples\13.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2023-03-16T11:22:13.316</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\14.jpg">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\14.jpg">
       <PackagePath>Assets\Samples\14.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2023-03-16T11:22:13.317</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\15.jpg">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\15.jpg">
       <PackagePath>Assets\Samples\15.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2023-03-16T11:22:13.319</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\16.jpg">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\16.jpg">
       <PackagePath>Assets\Samples\16.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2023-03-16T11:22:13.321</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\17.jpg">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\17.jpg">
       <PackagePath>Assets\Samples\17.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2023-03-16T11:22:13.324</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\18.jpg">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\18.jpg">
       <PackagePath>Assets\Samples\18.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2023-03-16T11:22:13.326</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\19.jpg">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\19.jpg">
       <PackagePath>Assets\Samples\19.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2023-03-16T11:22:13.327</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\2.jpg">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\2.jpg">
       <PackagePath>Assets\Samples\2.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2023-03-16T11:22:13.328</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\20.jpg">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\20.jpg">
       <PackagePath>Assets\Samples\20.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2023-03-16T11:22:13.330</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\3.jpg">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\3.jpg">
       <PackagePath>Assets\Samples\3.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2023-03-16T11:22:13.332</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\4.jpg">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\4.jpg">
       <PackagePath>Assets\Samples\4.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2023-03-16T11:22:13.333</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\5.jpg">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\5.jpg">
       <PackagePath>Assets\Samples\5.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2023-03-16T11:22:13.335</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\6.jpg">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\6.jpg">
       <PackagePath>Assets\Samples\6.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2023-03-16T11:22:13.336</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\7.jpg">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\7.jpg">
       <PackagePath>Assets\Samples\7.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2023-03-16T11:22:13.338</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\8.jpg">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\8.jpg">
       <PackagePath>Assets\Samples\8.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2023-03-16T11:22:13.339</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\9.jpg">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Assets\Samples\9.jpg">
       <PackagePath>Assets\Samples\9.jpg</PackagePath>
-      <Modified>2018-12-10T21:11:04.000</Modified>
+      <Modified>2023-03-16T11:22:13.341</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2022-03-07T07:22:35.299</Modified>
+      <Modified>2023-03-16T11:22:13.346</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\bin\x86\Debug\P4RafaelVilchesHernández.xr.xml">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\bin\x86\Debug\P4RafaelVilchesHernández.xr.xml">
       <PackagePath>P4RafaelVilchesHernández.xr.xml</PackagePath>
-      <Modified>2023-03-16T11:11:28.383</Modified>
+      <Modified>2023-03-16T11:54:37.542</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-03-16T11:11:28.433</Modified>
+      <Modified>2023-03-16T12:01:13.044</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2023-03-16T11:11:28.434</Modified>
+      <Modified>2023-03-16T12:01:13.044</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.22000.0\Windows.winmd">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2022-07-15T20:53:28.000</Modified>
+      <Modified>2020-12-02T00:52:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-03-02T14:43:00.093</Modified>
+      <Modified>2023-03-16T11:24:30.271</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pedro\source\repos\P4RafaelVilchesHernández\P4RafaelVilchesHernández\bin\x86\Debug\Core\P4RafaelVilchesHernández.exe">
+    <AppxPackagedFile Include="C:\Users\pedro\Documents\GitHub\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\bin\x86\Debug\Core\P4RafaelVilchesHernández.exe">
       <PackagePath>P4RafaelVilchesHernández.exe</PackagePath>
-      <Modified>2023-03-16T11:11:30.427</Modified>
+      <Modified>2023-03-16T12:01:13.556</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

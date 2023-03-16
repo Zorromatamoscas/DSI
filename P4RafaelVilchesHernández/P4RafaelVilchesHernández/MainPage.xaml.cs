@@ -8,6 +8,8 @@ using Windows.ApplicationModel.DataTransfer;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.Storage.Streams;
+using Windows.UI.Core;
+using Windows.UI.Input;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -27,6 +29,8 @@ namespace P4
     public sealed partial class MainPage : Page
     {
         public ObservableCollection<VMDron> ListaDrones { get; } = new ObservableCollection<VMDron>();
+        public bool ArrastreMapa=false;
+        public PointerPoint PtArrastreMapa;
 
         public MainPage()
         {
@@ -102,6 +106,32 @@ DragItemsStartingEventArgs e)
             string source = Item.Imagen;
             e.Data.SetText(source); //… Enviar el parámetro.
             e.Data.RequestedOperation= DataPackageOperation.Copy;
+        }
+
+        private void ScrollViewer_PointerPressed(object sender, PointerRoutedEventArgs e)
+        {
+            var Puntero = e.GetCurrentPoint(e.OriginalSource as Image);
+            if (Puntero.Properties.IsRightButtonPressed == true)
+            {
+                ArrastreMapa = true;
+                PtArrastreMapa = Puntero;
+                Window.Current.CoreWindow.PointerCursor = new CoreCursor(CoreCursorType.Hand,0);
+            }
+        }
+
+        private void ScrollViewer_PointerMoved(object sender, PointerRoutedEventArgs e)
+        {
+            if (ArrastreMapa)
+            {
+                myScrollView.ChangeView(e.GetCurrentPoint(e.OriginalSource as Image).Position.X - PtArrastreMapa.Position.X,
+                   e.GetCurrentPoint(e.OriginalSource as Image).Position.Y - PtArrastreMapa.Position.Y, myScrollView.ZoomFactor);
+            }
+        }
+
+        private void ScrollViewer_PointerReleased(object sender, PointerRoutedEventArgs e)
+        {
+            ArrastreMapa = false;
+            Window.Current.CoreWindow.PointerCursor = new CoreCursor(CoreCursorType.Arrow, 0);
         }
     }
 }

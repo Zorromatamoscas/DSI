@@ -71,19 +71,24 @@
             <CommandBar.Content>
                 <TextBlock Text="Práctica 4 de DSI" Margin="20,0,0,0" FontSize="30"  VerticalAlignment="Center"/>
             </CommandBar.Content>
-        </CommandBar>
+            </CommandBar>
+        <ScrollViewer x:Name="myScrollView" Grid.Row="1" ZoomMode="Enabled" VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Visible"
+                      PointerPressed="ScrollViewer_PointerPressed" PointerMoved="ScrollViewer_PointerMoved" PointerReleased="ScrollViewer_PointerReleased">
+            <Grid>
+                <Image x:Name="Madrigal" Grid.Row="1"
+                   Source="Assets/Madrigal.jpg" 
+                   Stretch="Fill"  AllowDrop="True" DragOver="MiCanvas_DragOver" Drop="MiCanvas_Drop" />
         
-        <Image Grid.Row="1"
-               Source="Assets/Madrigal.jpg" 
-               Stretch="Fill"  AllowDrop="True" DragOver="MiCanvas_DragOver" Drop="MiCanvas_Drop" />
-        <Canvas x:Name="MiCanvas" Grid.Row="1">
+             <Canvas x:Name="MiCanvas" Grid.Row="1">
         
-            <Image x:Name="MiDron" 
-                   Grid.Row="2"    Grid.Column="1" 
-                   Source="Assets/Samples/1.jpg" 
-                   Width="{Binding Value, ElementName=ImageSlider}"/>
-        </Canvas>
-        
+                <Image x:Name="MiDron" 
+                       Grid.Row="2"    Grid.Column="1" 
+                       Source="Assets/Samples/1.jpg" 
+                       Width="{Binding Value, ElementName=ImageSlider}"/>
+                </Canvas>
+            </Grid>
+        </ScrollViewer>
+
         <Image x:Name="MiImagen" 
                Grid.Row="2"    Grid.Column="1"
                Source="Assets/Samples/1.jpg" 

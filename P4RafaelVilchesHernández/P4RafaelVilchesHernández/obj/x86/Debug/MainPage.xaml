@@ -71,27 +71,32 @@
             <CommandBar.Content>
                 <TextBlock Text="Práctica 4 de DSI" Margin="20,0,0,0" FontSize="30"  VerticalAlignment="Center"/>
             </CommandBar.Content>
-        </CommandBar>
+            </CommandBar>
+        <ScrollViewer x:ConnectionId='10' x:Name="myScrollView" Grid.Row="1" ZoomMode="Enabled" VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Visible"
+                                                                                                                                                          >
+            <Grid>
+                <Image x:ConnectionId='14' x:Name="Madrigal" Grid.Row="1"
+                   Source="Assets/Madrigal.jpg" 
+                   Stretch="Fill"  AllowDrop="True"                                                   />
         
-        <Image x:ConnectionId='10' Grid.Row="1"
-               Source="Assets/Madrigal.jpg" 
-               Stretch="Fill"  AllowDrop="True"                                                   />
-        <Canvas x:ConnectionId='11' x:Name="MiCanvas" Grid.Row="1">
+             <Canvas x:ConnectionId='15' x:Name="MiCanvas" Grid.Row="1">
         
-            <Image x:ConnectionId='15' x:Name="MiDron" 
-                   Grid.Row="2"    Grid.Column="1" 
-                   Source="Assets/Samples/1.jpg" 
-                   Width="{Binding Value, ElementName=ImageSlider}"/>
-        </Canvas>
-        
-        <Image x:ConnectionId='12' x:Name="MiImagen" 
+                <Image x:ConnectionId='16' x:Name="MiDron" 
+                       Grid.Row="2"    Grid.Column="1" 
+                       Source="Assets/Samples/1.jpg" 
+                       Width="{Binding Value, ElementName=ImageSlider}"/>
+                </Canvas>
+            </Grid>
+        </ScrollViewer>
+
+        <Image x:ConnectionId='11' x:Name="MiImagen" 
                Grid.Row="2"    Grid.Column="1"
                Source="Assets/Samples/1.jpg" 
                Stretch="Fill"/>
-        <TextBlock x:ConnectionId='13'  x:Name="Texto"  Grid.Row="2"  FontSize="30"
+        <TextBlock x:ConnectionId='12'  x:Name="Texto"  Grid.Row="2"  FontSize="30"
                     TextWrapping="Wrap" 
                     Text="Esto es una Explicación en detalle del Dron muy larga, para que se ajuste al hueco.Esto es una Explicación en detalle del Dron muy larga, para que se ajuste al hueco.Esto es una Explicación en detalle del Dron muy larga, para que se ajuste al hueco. "/>
-        <ListView x:ConnectionId='14' x:Name="ImageGridView" 
+        <ListView x:ConnectionId='13' x:Name="ImageGridView" 
                   Grid.Row="1" Grid.Column="1" 
                                                      
                   ItemTemplate="{StaticResource ImageGridView_DefaultItemTemplate}"
