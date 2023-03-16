@@ -110,6 +110,9 @@ DragItemsStartingEventArgs e)
 
         private void ScrollViewer_PointerPressed(object sender, PointerRoutedEventArgs e)
         {
+            // Recoges el puntero que te llega cuando clicas y guardas como posicion inicial
+            // También indicas con un booleano que estas moviendo la imagen
+            // Por ultimo, cambias el puntero a la manita
             var Puntero = e.GetCurrentPoint(e.OriginalSource as Image);
             if (Puntero.Properties.IsRightButtonPressed == true)
             {
@@ -121,6 +124,9 @@ DragItemsStartingEventArgs e)
 
         private void ScrollViewer_PointerMoved(object sender, PointerRoutedEventArgs e)
         {
+            // Si estabas moviendo el mapa, coge la posicion actual del puntero cada vez que lo muevas y restale la inicial para sacar 
+            // cuanto tienes que mover la imagen y hacia donde
+            // Saca tambien el zoom factor del scrollview del XAML para sus cosas raras
             if (ArrastreMapa)
             {
                 myScrollView.ChangeView(e.GetCurrentPoint(e.OriginalSource as Image).Position.X - PtArrastreMapa.Position.X,
@@ -130,6 +136,7 @@ DragItemsStartingEventArgs e)
 
         private void ScrollViewer_PointerReleased(object sender, PointerRoutedEventArgs e)
         {
+            // Cuando sueltas el boton, indica que ya no estas moviendo el mapa y devuelve el cursor a la flechita
             ArrastreMapa = false;
             Window.Current.CoreWindow.PointerCursor = new CoreCursor(CoreCursorType.Arrow, 0);
         }
