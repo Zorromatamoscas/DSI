@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Windows.Media.Playback;
 using Windows.UI.Xaml.Controls;
+using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Imaging;
 
 namespace P4
@@ -12,8 +13,6 @@ namespace P4
     public class VMDron : Dron
     {
         public Image Img;
-        public ContentControl CCImg;
-        public int Zoom;
         public VMDron(Dron dron)
             {
             Id = dron.Id;
@@ -31,16 +30,28 @@ namespace P4
             Img.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(s));
             Img.Width = 50;
             Img.Height = 50;
-            CCImg = new ContentControl();
-            CCImg.Content = Img;
-            CCImg.UseSystemFocusVisuals = true;
-            //CCImg.Visibility = Windows.UI.Xaml.Visibility.Visible;//.Collapsed;
-            //Mapa.Children.Add(CCImg);
-            //Mapa.Children.Last().SetValue(Canvas.LeftProperty, X - 25);
-            //Mapa.Children.Last().SetValue(Canvas.TopProperty, Y - 25);
+        }
+    }
+    public class CVDron : ContentControl
+    {
+        public string Nombre;
+        public Image Img;
+        public CompositeTransform Transformacion;   //Nuevo: Traslación+Rotación
+        public CVDron(VMDron dron, double X, double Y)
+        {
+            Nombre = dron.Nombre;
+            Img = new Image();
+            Img.Source = dron.Img.Source;
+            Img.Width = 50;
+            Img.Height = 50;
+            this.Content = Img;
+            Transformacion = new CompositeTransform();
+            Transformacion.TranslateX = X;
+            Transformacion.TranslateY = Y;
+            this.RenderTransform = Transformacion;
         }
     }
 
 
-   
+
 }

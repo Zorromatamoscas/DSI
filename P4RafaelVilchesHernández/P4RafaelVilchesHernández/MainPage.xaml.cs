@@ -1,4 +1,5 @@
-﻿using System;
+﻿using P4Pruebas;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
@@ -28,6 +29,9 @@ namespace P4
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        Controlador GameControl = null;
+        GameLoop gameLoop = null;
+
         public ObservableCollection<VMDron> ListaDrones { get; } = new ObservableCollection<VMDron>();
         public bool ArrastreMapa=false;
         public PointerPoint PtArrastreMapa;
@@ -35,6 +39,9 @@ namespace P4
         public MainPage()
         {
             this.InitializeComponent();
+            GameControl = new Controlador();
+            gameLoop = new GameLoop(this, GameControl);
+
         }
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
@@ -45,17 +52,42 @@ namespace P4
                     VMDron VMitem = new VMDron(dron);
                     ListaDrones.Add(VMitem);
                 }
+            gameLoop.GameTimerSetup();
             base.OnNavigatedTo(e);
+        }
+        public void ActualizaIU()
+        {
+            ContentControl MiDron = FocusManager.GetFocusedElement() as ContentControl;
+
+            if (MiDron?.Parent == MiCanvas)
+            {
+                double X = 0, Y = 0, Angulo = 0;
+                float Zoom = 0;
+                X = (int)(X + 10 * GameControl.reading.RightThumbstickX);
+                Y = (int)(Y - 10 * GameControl.reading.RightThumbstickY);
+                Angulo = (int)(Angulo + 10 * GameControl.reading.RightTrigger);
+                Angulo = (int)(Angulo - 10 * GameControl.reading.LeftTrigger);
+
+                CompositeTransform Transformacion = MiDron.RenderTransform as CompositeTransform;
+                Transformacion.TranslateX += X / myScrollView.ZoomFactor;
+                Transformacion.TranslateY += Y / myScrollView.ZoomFactor;
+                Transformacion.Rotation += Angulo;
+                MiDron.RenderTransform = Transformacion;
+                myScrollView.ChangeView(myScrollView.HorizontalOffset, myScrollView.VerticalOffset, myScrollView.ZoomFactor + Zoom);
+            }
         }
 
         private void ImageGridView_ItemClick(object sender, ItemClickEventArgs e)
         {
-            var item = e.ClickedItem as VMDron;
-            Texto.Text = item.Explicacion;
-            MiImagen.Source = item.Img.Source;
-            MiDron.SetValue(Canvas.LeftProperty, item.X - 20);
-            MiDron.SetValue(Canvas.TopProperty, item.Y - 15);
-            MiDron.Source = item.Img.Source;
+            VMDron Sel = e.ClickedItem as VMDron;
+            //MiTexto.Text = Sel.Explicacion;
+            MiImagen.Source = Sel.Img.Source;
+            CVDron MiDron = new CVDron(Sel, Sel.X, Sel.Y);
+            MiCanvas.Children.Add(MiDron);
+            MiDron.ManipulationMode = ManipulationModes.All;
+            MiDron.ManipulationDelta += MiDron_ManipulationDelta;
+            MiDron.KeyDown += MiDron_KeyDown;
+            MiDron.UseSystemFocusVisuals = true;
         }
 
         private void MiCanvas_DragOver(object sender, DragEventArgs e)
@@ -65,36 +97,20 @@ namespace P4
 
         private async void MiCanvas_Drop(object sender, DragEventArgs e)
         {
-            e.Data.RequestedOperation = DataPackageOperation.Copy;
-                Point PD = e.GetPosition(MiCanvas);
-            ContentControl MiDron = new ContentControl();
-            MiDron.IsTabStop = true;
-            MiDron.UseSystemFocusVisuals = true;
-            Image MiDronImage = new Image();
-            var source = await e.DataView.GetTextAsync();
-            var realSource = System.IO.Directory.GetCurrentDirectory() + "\\" + source;
-            MiDronImage.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(realSource));
-            MiDronImage.Width = ImageSlider.Value;
-            MiDronImage.Height = ImageSlider.Value;
-            //MiCanvas.Children.Clear();
-            MiDron.Content = MiDronImage;
-            MiCanvas.Children.Add(MiDron);
-            MiDron.SetValue(Canvas.LeftProperty, PD.X);
-            MiDron.SetValue(Canvas.TopProperty,PD.Y);
-            MiDron.KeyDown += MiDron_KeyDown;
-
-
-            CompositeTransform Transformacion = new CompositeTransform();
-            Transformacion.TranslateX = 0.0;
-            Transformacion.TranslateY = 0.0;
-            Transformacion.Rotation = 0;
-            MiDron.RenderTransform = Transformacion;
+            CVDron MiDron = null, MiDronG = null;
+            Point PD = e.GetPosition(MiCanvas);
+            var nombre = await e.DataView.GetTextAsync();
+            foreach (VMDron vDron in ListaDrones)
+                if (vDron.Nombre == nombre)
+                {
+                    MiDron = new CVDron(vDron as VMDron, PD.X, PD.Y);
+                    MiDronG = new CVDron(vDron as VMDron, PD.X, PD.Y);
+                }
             MiDron.ManipulationMode = ManipulationModes.All;
             MiDron.ManipulationDelta += MiDron_ManipulationDelta;
-            MiDron.IsFocusEngagementEnabled= true;
-            MiDron.XYFocusKeyboardNavigation = XYFocusKeyboardNavigationMode.Enabled;
-
-
+            MiDron.KeyDown += MiDron_KeyDown;
+            MiDron.UseSystemFocusVisuals = true;
+            MiCanvas.Children.Add(MiDron);
         }
 
         private void MiDron_KeyDown(object sender, KeyRoutedEventArgs e)
