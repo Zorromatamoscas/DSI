@@ -1,16 +1,26 @@
 WinMetadata\Windows.winmd
+Assets\bobesponja.png
+Assets\cartel.png
+Assets\Cuaderno DSI stats.png
 Assets\Cuaderno DSI.PNG
+Assets\cuadernoMapa.jpg
 Assets\LockScreenLogo.scale-200.png
+Assets\mapa.jpg
 Assets\SplashScreen.scale-200.png
 Assets\Square150x150Logo.scale-200.png
 Assets\Square44x44Logo.scale-200.png
 Assets\Square44x44Logo.targetsize-24_altform-unplated.png
+Assets\steelSword.png
 Assets\StoreLogo.png
+Assets\Tattoo de seleccion.PNG
+Assets\tienda tatoo.png
 Assets\Wide310x150Logo.scale-200.png
 App.xbf
 Dsi Proyect.xr.xml
+InitialShop.xbf
 MainPage.xbf
 MenuDeOpciones.xbf
 MenuPrincipal.xbf
 TeamSelect.xbf
+WeaponStore.xbf
 Properties\Default.rd.xml

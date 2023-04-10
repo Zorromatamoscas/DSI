@@ -8,6 +8,16 @@
     mc:Ignorable="d"
     Background="Beige">
     <Page.Resources>
+        <Style x:Name="Tabs" TargetType="Button">
+            <Setter Property="RenderTransform">
+                <Setter.Value>
+                    <RotateTransform Angle="-90"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Background" Value="LightSkyBlue"/>
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="Margin" Value="0,30"/>
+        </Style>
         <DataTemplate x:Key="ListItemTemplate"
                       x:DataType="local:Personajes">
             <Grid Height="40" Width="300" Margin="8" HorizontalAlignment="Center">
@@ -26,6 +36,12 @@
                 </StackPanel>
             </Grid>
 
+        </DataTemplate>
+        <DataTemplate x:Key="StatItem" >
+            <StackPanel Orientation="Vertical">
+                <TextBlock x:Name="Stat"/>
+                <TextBlock x:Name="value"/>
+            </StackPanel>
         </DataTemplate>
         <!--<DataTemplate x:Key="GridItemTemplate"
                       x:DataType="local:CVDron">
@@ -47,6 +63,14 @@
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>-->
         <Image Source = "/Assets/Cuaderno DSI.PNG" Width="225" Height="350"/>
+        <Image Source="/Assets/cuadernoMapa.jpg" Grid.Column="1" Width="300"/>
+        <Image Source="/Assets/mapa.jpg" Grid.Column="1" Width="250"/>
+        <Image Source="/Assets/cartel.png"  Width="200" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="70,0"/>
+        <Image Source="/Assets/Cuaderno DSI stats.PNG" Width="300" VerticalAlignment="Bottom"/>
+
+
+        <TextBlock Text="Select Team" Width="200" FontSize="25" Margin="100, 90" HorizontalAlignment="Left"/>
+        <Image Source="/Assets/bobesponja.png" Width="50"  Margin="70,0" VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
         <ListView x:Name="ListView"
                   
                   Margin="10"
@@ -57,5 +81,15 @@
                   IsItemClickEnabled="True"
                   CanDragItems="True"
                   IsFocusEngagementEnabled="True"/>
+        <StackPanel VerticalAlignment="Center" Width="275" >
+            <StackPanel.RenderTransform>
+                <TranslateTransform Y="70"/>
+            </StackPanel.RenderTransform>
+            <Button Style="{StaticResource Tabs}" Content="Sword"/>
+            <Button Style="{StaticResource Tabs}" Content="Shield"/>
+            <Button Style="{StaticResource Tabs}" Content="Bow"/>
+        </StackPanel>
+
+
     </Grid>
 </Page>

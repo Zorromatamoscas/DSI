@@ -1,1 +1,1 @@
-C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Dsi Proyect.csproj;x86
+C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Dsi Proyect.csproj;x86

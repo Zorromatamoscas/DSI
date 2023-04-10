@@ -119,6 +119,10 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Armas.cs" />
+    <Compile Include="InitialShop.xaml.cs">
+      <DependentUpon>InitialShop.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -133,6 +137,9 @@
     <Compile Include="TeamSelect.xaml.cs">
       <DependentUpon>TeamSelect.xaml</DependentUpon>
     </Compile>
+    <Compile Include="WeaponStore.xaml.cs">
+      <DependentUpon>WeaponStore.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -140,7 +147,15 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\bobesponja.png" />
+    <Content Include="Assets\cartel.png" />
+    <Content Include="Assets\Cuaderno DSI stats.png" />
     <Content Include="Assets\Cuaderno DSI.PNG" />
+    <Content Include="Assets\cuadernoMapa.jpg" />
+    <Content Include="Assets\mapa.jpg" />
+    <Content Include="Assets\steelSword.png" />
+    <Content Include="Assets\Tattoo de seleccion.PNG" />
+    <Content Include="Assets\tienda tatoo.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -155,6 +170,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="InitialShop.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -170,6 +189,10 @@
     <Page Include="TeamSelect.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WeaponStore.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <ItemGroup>
