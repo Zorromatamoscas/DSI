@@ -8,7 +8,48 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
+    <Page.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontSize" Value="80"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="Foreground" Value="Aqua"></Setter>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Width" Value="400"></Setter>
+            <Setter Property="Background" Value="AliceBlue"></Setter>
+        </Style>
+        
+    </Page.Resources>
     <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF0E0F2D" Offset="0"/>
+                <GradientStop Color="#FF292B48" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <StackPanel>
+            <TextBlock Text="OPCIONES"></TextBlock>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="30">
+                <Button Content="SONIDO"></Button>
+                <Slider Maximum="100" Width="198"></Slider>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="30">
+                <Button Content="EFECTOS DE SONIDO"></Button>
+                <Slider Maximum="100" Width="198"></Slider>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="30">
+                <Button Content="MUSICA"></Button>
+                <Slider Maximum="100" Width="198"></Slider>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="30">
+                <Button Content="TABLERO"></Button>
+                <CheckBox Margin="40 0" IsChecked="False"></CheckBox>
+            </StackPanel>
+            <Button Margin="100" Content="VOLVER" HorizontalAlignment="Center" Height="100"></Button>
+            
+        </StackPanel>
+        
 
     </Grid>
 </Page>

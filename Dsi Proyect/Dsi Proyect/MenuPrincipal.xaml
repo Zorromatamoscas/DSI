@@ -17,6 +17,13 @@
             <Setter Property="HorizontalAlignment" Value="Stretch"></Setter>
             <Setter Property="FontSize" Value="30"></Setter>
         </Style>
+
+        <Style TargetType="TextBlock">
+            <Setter Property="FontSize" Value="70"></Setter>
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="TextAlignment" Value="Center"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Stretch"></Setter>
+        </Style>
     </Page.Resources>
     
     <Grid>
@@ -35,7 +42,7 @@
             </LinearGradientBrush>
         </Grid.Background>
 
-        <StackPanel Margin="100">
+        <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Center">
             <Button Content="Play" Name="Play">
             </Button>
             <Button Content="Store">
@@ -45,6 +52,12 @@
             <Button Content="Exit">
             </Button>
         </StackPanel>
+
+        <StackPanel Grid.Column="1" VerticalAlignment="Center">
+            <TextBlock Text="WATER TATTOO" Margin="50"></TextBlock>
+            <TextBlock Text="Three Shacks" FontSize="50"></TextBlock>
+        </StackPanel>
+        
 
 
     </Grid>
