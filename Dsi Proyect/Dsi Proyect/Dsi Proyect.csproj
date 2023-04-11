@@ -149,6 +149,7 @@
   <ItemGroup>
     <Content Include="Assets\bobesponja.png" />
     <Content Include="Assets\cartel.png" />
+    <Content Include="Assets\Cuaderno DSI boton.png" />
     <Content Include="Assets\Cuaderno DSI stats.png" />
     <Content Include="Assets\Cuaderno DSI.PNG" />
     <Content Include="Assets\cuadernoMapa.jpg" />

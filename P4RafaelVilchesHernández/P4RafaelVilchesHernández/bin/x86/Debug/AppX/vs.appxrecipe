@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-23T15:27:26.111</Modified>
+      <Modified>2023-03-30T14:00:49.554</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\bin\x86\Debug\P4RafaelVilchesHernández.exe">
       <PackagePath>entrypoint\P4RafaelVilchesHernández.exe</PackagePath>
-      <Modified>2023-03-23T15:27:25.250</Modified>
+      <Modified>2023-03-30T14:00:48.840</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -186,11 +186,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-03-23T15:27:25.164</Modified>
+      <Modified>2023-03-30T14:00:48.700</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2023-03-23T15:27:25.165</Modified>
+      <Modified>2023-03-30T14:00:48.700</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -198,11 +198,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-03-16T14:19:08.423</Modified>
+      <Modified>2023-03-30T13:29:05.098</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\P4RafaelVilchesHernández\P4RafaelVilchesHernández\bin\x86\Debug\Core\P4RafaelVilchesHernández.exe">
       <PackagePath>P4RafaelVilchesHernández.exe</PackagePath>
-      <Modified>2023-03-23T15:27:26.099</Modified>
+      <Modified>2023-03-30T14:00:49.549</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

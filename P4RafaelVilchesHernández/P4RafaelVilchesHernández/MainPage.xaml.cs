@@ -174,8 +174,8 @@ namespace P4
 DragItemsStartingEventArgs e)
         {
             VMDron Item = e.Items[0] as VMDron;
-            string source = Item.Imagen;
-            e.Data.SetText(source); //… Enviar el parámetro.
+            string name = Item.Nombre.ToString();
+            e.Data.SetText(name); //… Enviar el parámetro.
             e.Data.RequestedOperation= DataPackageOperation.Copy;
         }
 
