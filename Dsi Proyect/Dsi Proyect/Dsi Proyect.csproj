@@ -126,6 +126,9 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MenuDeCombate.xaml.cs">
+      <DependentUpon>MenuDeCombate.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MenuDeOpciones.xaml.cs">
       <DependentUpon>MenuDeOpciones.xaml</DependentUpon>
     </Compile>
@@ -157,6 +160,7 @@
     <Content Include="Assets\steelSword.png" />
     <Content Include="Assets\Tattoo de seleccion.PNG" />
     <Content Include="Assets\tienda tatoo.png" />
+    <Content Include="Assets\InterfazDeCombate.PNG" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -176,6 +180,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MenuDeCombate.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

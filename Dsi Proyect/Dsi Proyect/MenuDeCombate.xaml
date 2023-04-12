@@ -25,7 +25,7 @@
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
 
-        <Image Grid.Column="1" Source="/Assets/InterfazDeCombate.png" Width="300" Height="500"></Image>
+        <Image Grid.Column="1" Source="/Assets/InterfazDeCombate.PNG" Width="300" Height="500"></Image>
 
             <Rectangle Width="300"></Rectangle>
             <Rectangle Width="200" Height="400" Fill="#8b51f5" Stroke="#130b34"></Rectangle>
@@ -37,6 +37,50 @@
                 <Button Content="Return"></Button>
             </StackPanel>
             <Rectangle Width="300" Grid.Column="2"></Rectangle>
+            <StackPanel Grid.Column="2" Margin="50">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <TextBox Background="White" Text="HP" FontSize="15" Foreground="Black" 
+                             TextAlignment="Center"/>
+                    <Rectangle Fill="Green" Width="200"></Rectangle>
+                </StackPanel>
+                <TextBox Margin="20" FontSize="25" FontWeight="Bold"  
+                         FontStyle="Italic" 
+                         Foreground="CadetBlue" 
+                         Background="#FF444444" 
+                         Text="ATAQUE" 
+                         TextAlignment="Center"></TextBox>
+
+                <StackPanel Orientation="Horizontal" Margin="10" HorizontalAlignment="Center">
+                    <Image Source="Assets/bobesponja.png" Width="62" Height="83" ></Image>
+                    <StackPanel>
+                        <TextBox Background="White" Text="HP ENEMIGO" FontSize="15" Foreground="Black" 
+                             TextAlignment="Center" Width="108"/>
+                        <Rectangle Fill="Red" Width="200" Height="30"></Rectangle>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="10" HorizontalAlignment="Center">
+                    <Image Source="Assets/bobesponja.png" Width="62" Height="83" ></Image>
+                    <StackPanel>
+                        <TextBox Background="White" Text="HP TUYO" FontSize="15" Foreground="Black" 
+                             TextAlignment="Center" Width="100"/>
+                        <Rectangle Fill="Green" Width="200" Height="30"></Rectangle>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal"  Margin="10" HorizontalAlignment="Center">
+                    <TextBox Background="White" TextAlignment="Center" Text="%Golpe al jugador" Foreground="Black"></TextBox>
+                    <TextBox Background="White" TextAlignment="Center" Text="30%" Foreground="Black"></TextBox>
+                    <TextBox Background="White" TextAlignment="Center" Text="Daño al Jugador"  Foreground="Black"></TextBox>
+                    <TextBox Background="White" TextAlignment="Center" Text="16" Foreground="Black"></TextBox>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="10" HorizontalAlignment="Center">
+                    <TextBox Background="White" Text="% Golpe" TextAlignment="Center" Foreground="Black" Width="126"></TextBox>
+                    <TextBox Background="White" Text="100%" TextAlignment="Center" Foreground="Black"></TextBox>
+                    <TextBox Background="White" Text="Daño" TextAlignment="Center" Foreground="Black" Width="126"></TextBox>
+                    <TextBox Background="White" Text="24"  TextAlignment="Center" Foreground="Black"></TextBox>
+                </StackPanel>
+                
+            </StackPanel>
+        
     </Grid>
     </Viewbox>
 </Page>

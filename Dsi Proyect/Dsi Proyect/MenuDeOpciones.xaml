@@ -20,7 +20,8 @@
         </Style>
         
     </Page.Resources>
-    <Grid>
+    <Viewbox>
+    <Grid Width="1378">
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="#FF0E0F2D" Offset="0"/>
@@ -52,4 +53,5 @@
         
 
     </Grid>
+    </Viewbox>
 </Page>

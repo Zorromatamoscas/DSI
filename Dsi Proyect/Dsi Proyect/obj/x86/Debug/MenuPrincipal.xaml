@@ -13,6 +13,7 @@
             <Setter Property="BorderThickness" Value="1"></Setter>
             <Setter Property="BorderBrush" Value="Black"></Setter>
             <Setter Property="Background" Value="#FFFFFF83"></Setter>
+            <Setter Property="Foreground" Value="Black"></Setter>
             <Setter Property="Margin" Value="80"></Setter>
             <Setter Property="HorizontalAlignment" Value="Stretch"></Setter>
             <Setter Property="FontSize" Value="30"></Setter>
@@ -23,16 +24,15 @@
             <Setter Property="VerticalAlignment" Value="Center"></Setter>
             <Setter Property="TextAlignment" Value="Center"></Setter>
             <Setter Property="HorizontalAlignment" Value="Stretch"></Setter>
+            <Setter Property="Foreground" Value="Black"></Setter>
         </Style>
     </Page.Resources>
     
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition>
-                
             </ColumnDefinition>
             <ColumnDefinition>
-
             </ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Grid.Background>

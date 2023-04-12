@@ -5,6 +5,7 @@ Assets\Cuaderno DSI boton.png
 Assets\Cuaderno DSI stats.png
 Assets\Cuaderno DSI.PNG
 Assets\cuadernoMapa.jpg
+Assets\InterfazDeCombate.PNG
 Assets\LockScreenLogo.scale-200.png
 Assets\mapa.jpg
 Assets\SplashScreen.scale-200.png
@@ -20,6 +21,7 @@ App.xbf
 Dsi Proyect.xr.xml
 InitialShop.xbf
 MainPage.xbf
+MenuDeCombate.xbf
 MenuDeOpciones.xbf
 MenuPrincipal.xbf
 TeamSelect.xbf

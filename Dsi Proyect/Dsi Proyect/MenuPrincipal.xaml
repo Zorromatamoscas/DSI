@@ -27,8 +27,9 @@
             <Setter Property="Foreground" Value="Black"></Setter>
         </Style>
     </Page.Resources>
-    
-    <Grid>
+
+    <Viewbox>
+    <Grid Width="1639" Height="915">
         <Grid.ColumnDefinitions>
             <ColumnDefinition>
             </ColumnDefinition>
@@ -61,4 +62,5 @@
 
 
     </Grid>
+    </Viewbox>
 </Page>
