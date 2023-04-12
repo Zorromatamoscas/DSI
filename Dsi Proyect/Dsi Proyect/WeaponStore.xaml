@@ -17,6 +17,7 @@
             <Setter Property="Background" Value="LightSkyBlue"/>
             <Setter Property="Width" Value="110"/>
             <Setter Property="Margin" Value="0,30"/>
+            <Setter Property="Foreground" Value="Black"/>
         </Style>
         <DataTemplate x:Key="ListItemTemplate"
                       x:DataType="local:Armas">
@@ -32,7 +33,7 @@
                     <StackPanel VerticalAlignment="Center">
                         <Image  VerticalAlignment="Center"/>
                     </StackPanel>
-                    <TextBlock Text="{x:Bind Nombre}" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <TextBlock Text="{x:Bind Nombre}" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Black"/>
                 </StackPanel>
             </Grid>
 
@@ -76,9 +77,9 @@
                 <Image Source="/Assets/cartel.png"  Width="200" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="70,-50"/>
 
 
-                <TextBlock Text="Shop" Width="200" FontSize="25" Margin="140, 40"/>
+                <TextBlock Text="Shop" Width="200" FontSize="25" Margin="140, 40" Foreground="Black"/>
 
-                <TextBlock Text="Weapons" Width="200" FontSize="20" Margin="135, 110"/>
+                <TextBlock Text="Weapons" Width="200" FontSize="20" Margin="135, 110" Foreground="Black"/>
                 <ListView x:Name="ListView"
                   
                           Margin="-40,-120,0,0"
@@ -104,8 +105,8 @@
                     <StackPanel.RenderTransform>
                         <TranslateTransform Y="140"/>
                     </StackPanel.RenderTransform>
-                    <Button Background="Pink" Content="Shop" Width="150"/>
-                    <Button  Background="Pink" Content="Inventory" Width="150"/>
+                    <Button Background="Pink" Content="Shop" Width="150" Foreground="Black"/>
+                    <Button  Background="Pink" Content="Inventory" Width="150" Foreground="Black"/>
                 </StackPanel>
             </Grid>
         </Viewbox>

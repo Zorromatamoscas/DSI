@@ -17,11 +17,11 @@
             <Viewbox Stretch="Fill">
                 <Grid>
             <Image Source="/Assets/cartel.png"  Width="200" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="70,-50"/>
-            <TextBlock Text="Shop" Width="200" FontSize="25" Margin="140, 40"/>
+            <TextBlock Text="Shop" Width="200" FontSize="25" Margin="140, 40" Foreground="Black"/>
             <StackPanel  HorizontalAlignment="Center" Margin="0,130,50,0">
-                <Button Content="Weapons" FontSize="40" Margin="0,0,0,0" HorizontalAlignment="Center" Background="Transparent"/>
+                <Button Content="Weapons" FontSize="40" Margin="0,0,0,0" HorizontalAlignment="Center" Foreground="Black" Background="Transparent"/>
                 <Image Source="/Assets/Tattoo de seleccion.PNG" Width="200" Margin="0,0,30,0" HorizontalAlignment="Center"/>
-                <Button Content="Protective Tattoos" FontSize="40" Margin="0,0,0,0" VerticalAlignment="Center" Background="Transparent"/>
+                <Button Content="Protective Tattoos" FontSize="40" Margin="0,0,0,0" VerticalAlignment="Center" Foreground="Black" Background="Transparent"/>
                 <Image Source="/Assets/Tattoo de seleccion.PNG" Width="200" Margin="0,0,30,0" HorizontalAlignment="Center"/>
             </StackPanel>
             </Grid>
