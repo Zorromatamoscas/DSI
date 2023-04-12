@@ -52,7 +52,7 @@
             </StackPanel>
         </DataTemplate>-->
     </Page.Resources>
-
+    <Viewbox Stretch="Fill">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -63,15 +63,18 @@
             <RowDefinition Height="3*"/>
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>-->
+        <Image Source="/Assets/tienda tatoo.png" Grid.ColumnSpan="2" Margin="213,0,0,0" />
+
+        <Viewbox StretchDirection="Both" Stretch="Fill">
+        <Grid>
         <Image Source = "/Assets/Cuaderno DSI.PNG" Width="225" Height="350"/>
-        <Image Source="/Assets/cuadernoMapa.jpg" Grid.Column="1" Width="300"/>
-        <Image Source="/Assets/mapa.jpg" Grid.Column="1" Width="250"/>
-        <Image Source="/Assets/cartel.png"  Width="300" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="70,0"/>
+        
+        <Image Source="/Assets/cartel.png"  Width="300" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="70,-100"/>
         <Image Source="/Assets/Cuaderno DSI stats.PNG" Width="300" VerticalAlignment="Bottom"/>
 
 
-        <TextBlock Text="Select Team" FontSize="35" Margin="120, 135" HorizontalAlignment="Left" IsColorFontEnabled="True" Foreground="Black"/>
-        <Image Source="/Assets/bobesponja.png" Width="50"  Margin="70,0" VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
+        <TextBlock Text="Select Team" FontSize="35" Margin="120, 40" HorizontalAlignment="Left" IsColorFontEnabled="True" Foreground="Black"/>
+        <Image Source="/Assets/bobesponja.png" Width="50"  Margin="150,0" VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
         <ListView x:ConnectionId='9' x:Name="ListView"
                   
                   Margin="10"
@@ -82,8 +85,6 @@
                   IsItemClickEnabled="True"
                   CanDragItems="True"
                   IsFocusEngagementEnabled="True"/>
-        <Image Source="/Assets/Cuaderno DSI boton.png" Grid.Column="1" Width="150" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,35,15" />
-        <Button Grid.Column="1" Content="Ready" VerticalAlignment="Bottom" HorizontalAlignment="Right" Foreground="Black" BorderBrush="Black" BorderThickness="1" Margin="0,0,64,22" FontSize="30"/>
 
         <StackPanel VerticalAlignment="Center" Width="275" >
             <StackPanel.RenderTransform>
@@ -93,8 +94,21 @@
             <Button Style="{StaticResource Tabs}" Content="Shield"/>
             <Button Style="{StaticResource Tabs}" Content="Bow"/>
         </StackPanel>
-
+        </Grid>
+        </Viewbox >
+        <Viewbox Grid.Column="1" Margin="30,30,30,30" StretchDirection="Both" Stretch="Fill">
+            <Grid>
+                <Image Source="/Assets/cuadernoMapa.jpg" Width="300" Margin="30,30,30,30"/>
+                <Image Source="/Assets/mapa.jpg"  Width="250" Margin="20,0,0,0"/>
+                <Image Source="/Assets/Cuaderno DSI boton.png"  Width="150" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,0,0" />
+                <Button Content="Ready" VerticalAlignment="Bottom" HorizontalAlignment="Right" Background="Transparent" Foreground="Black" BorderBrush="Black" BorderThickness="1" Margin="25,5" FontSize="30"/>
+            </Grid>
+        </Viewbox>
+        
+            
+       
 
     </Grid>
+    </Viewbox>
 </Page>
 
