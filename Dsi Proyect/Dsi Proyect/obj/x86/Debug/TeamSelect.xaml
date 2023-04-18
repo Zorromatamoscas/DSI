@@ -70,12 +70,28 @@
         <Image Source = "/Assets/Cuaderno DSI.PNG" Width="225" Height="350"/>
         
         <Image Source="/Assets/cartel.png"  Width="300" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="70,-100"/>
-        <Image Source="/Assets/Cuaderno DSI stats.PNG" Width="300" VerticalAlignment="Bottom"/>
+                    <Canvas x:ConnectionId='13' x:Name="myCanvas" VerticalAlignment="Bottom" Margin="80,0,0,80">
+                        <Image Source="/Assets/Cuaderno DSI stats.PNG" Width="300"/>
+                        <Image x:ConnectionId='15' x:Name="pjImage" Source="/Assets/bobesponja.png" Width="50"  Margin="20,10,0,0" VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
+                        <StackPanel Margin="60,0,0,0" Orientation="Horizontal" >
+                            <TextBlock Text="HP" Margin="10,0"/>
+                            <TextBlock Text="ATK" Margin="10,0"/>
+                            <TextBlock Text="DEF" Margin="10,0"/>
+                            <TextBlock Text="Lv" Margin="10,0"/>
+                            <TextBlock Text="Type" Margin="10,0"/>
+                        </StackPanel>
+                        <StackPanel x:ConnectionId='16' x:Name="statStack" Margin="60,35,0,0" Orientation="Horizontal" >
+                            <TextBlock x:ConnectionId='17' x:Name = "HP" Margin="10,0"/>
+                            <TextBlock x:ConnectionId='18' x:Name = "ATK" Margin="10,0"/>
+                            <TextBlock x:ConnectionId='19' x:Name="DEF" Margin="10,0"/>
+                            <TextBlock x:ConnectionId='20' x:Name="Lv" Margin="10,0"/>
+                            <TextBlock x:ConnectionId='21' x:Name="Type" Margin="10,0"/>
+                        </StackPanel>
+                    </Canvas>
 
-
-        <TextBlock Text="Select Team" FontSize="35" Margin="120, 40" HorizontalAlignment="Left" IsColorFontEnabled="True" Foreground="Black"/>
-        <Image Source="/Assets/bobesponja.png" Width="50"  Margin="150,0" VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
-        <ListView x:ConnectionId='9' x:Name="ListView"
+                    <TextBlock Text="Select Team" FontSize="35" Margin="120, 40" HorizontalAlignment="Left" IsColorFontEnabled="True" Foreground="Black"/>
+        
+        <ListView x:ConnectionId='14' x:Name="ListView"
                   
                   Margin="10"
                   Padding="100"
@@ -83,6 +99,7 @@
                                                                    
                   ItemTemplate="{StaticResource ListItemTemplate}" 
                   IsItemClickEnabled="True"
+                                                
                   CanDragItems="True"
                   IsFocusEngagementEnabled="True"/>
 
@@ -101,7 +118,14 @@
                 <Image Source="/Assets/cuadernoMapa.jpg" Width="300" Margin="30,30,30,30"/>
                 <Image Source="/Assets/mapa.jpg"  Width="250" Margin="20,0,0,0"/>
                 <Image Source="/Assets/Cuaderno DSI boton.png"  Width="150" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,0,0" />
-                <Button Content="Ready" VerticalAlignment="Bottom" HorizontalAlignment="Right" Background="Transparent" Foreground="Black" BorderBrush="Black" BorderThickness="1" Margin="25,5" FontSize="30"/>
+                    <Button x:ConnectionId='9' HorizontalAlignment="Center" Height="50" Width="50" Margin="-90,180,0,0"                     Background="Transparent">
+                        <Image x:ConnectionId='12' x:Name="allySpace1"/>
+                    </Button>
+                    <Button x:ConnectionId='10' HorizontalAlignment="Center" Height="50" Width="50"  Margin="150,180,0,0"                     Background="Transparent">
+                        <Image x:ConnectionId='11' x:Name="allySpace2" />
+                    </Button>
+
+                    <Button Content="Ready" VerticalAlignment="Bottom" HorizontalAlignment="Right" Background="Transparent" Foreground="Black" BorderBrush="Black" BorderThickness="1" Margin="25,5" FontSize="30"/>
             </Grid>
         </Viewbox>
         

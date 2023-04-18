@@ -268,3 +268,8 @@ C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug
 C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\MenuDeCombate.g.cs
 C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\MenuDeCombate.xaml
 C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\MenuDeCombate.xbf
+C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\MenuDeCombate.xbf
+C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\MenuDeCombate.g.i.cs
+C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\MenuDeCombate.g.cs
+C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\MenuDeCombate.xaml
+C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\MenuDeCombate.xbf
