@@ -42,13 +42,13 @@ namespace Dsi_Proyect
             switch (pj.Tipo)
             {
                 case "Sword": 
-                    Mapicon = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(System.IO.Directory.GetCurrentDirectory() + "\\swordIcon"));
+                    Mapicon = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(System.IO.Directory.GetCurrentDirectory() + "\\Assets\\swordIcon.png"));
                     break;
                 case "Shield":
-                    Mapicon = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(System.IO.Directory.GetCurrentDirectory() + "\\shieldIcon"));
+                    Mapicon = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(System.IO.Directory.GetCurrentDirectory() + "\\Assets\\shieldIcon.png"));
                     break;
                 case "Bow":
-                    Mapicon = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(System.IO.Directory.GetCurrentDirectory() + "\\bowIcon"));
+                    Mapicon = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(System.IO.Directory.GetCurrentDirectory() + "\\Assets\\bowIcon.png"));
                     break;
 
                 default: break;
