@@ -82,5 +82,20 @@ namespace Dsi_Proyect
             allySpace1Used = false;
             allySpace1.Source = null;
         }
+
+        private void Sword_Click(object sender, RoutedEventArgs e)
+        {
+            ListView.ItemsSource = ListaPj.personajesEspada;
+        }
+
+        private void Shield_Click(object sender, RoutedEventArgs e)
+        {
+            ListView.ItemsSource = ListaPj.personajesEscudo;
+        }
+
+        private void Bow_Click(object sender, RoutedEventArgs e)
+        {
+            ListView.ItemsSource = ListaPj.personajesArco;
+        }
     }
 }

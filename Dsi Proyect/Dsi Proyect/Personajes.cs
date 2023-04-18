@@ -23,7 +23,7 @@ namespace Dsi_Proyect
     }
     public class ListaPj
     {
-        public static List<Personajes> personajes = new List<Personajes>()
+        public static List<Personajes> personajesEspada = new List<Personajes>()
         {
             new Personajes()
             {
@@ -36,39 +36,7 @@ namespace Dsi_Proyect
                 Tipo= "Sword",
                 Source = "Assets\\bobesponja.png"
             },
-            new Personajes()
-            {
-                Id = "ShieldUser 1",
-                Nombre = "Plancton",
-                Vida= 310,
-               Ataque = 90,
-                Defensa = 150,
-                Lv= 15,
-                Tipo= "Shield",
-                Source = "Assets\\plancton.png"
-            },
-            new Personajes()
-            {
-                Id = "BowUser 1",
-                Nombre = "Patricio",
-                Vida = 190,
-               Ataque = 180,
-                Defensa = 70,
-                Lv= 14,
-                Tipo= "Bow",
-                Source = "Assets\\patricio.png"
-            },
-            new Personajes()
-            {
-                Id = "ShieldUser 2",
-                Nombre = "Sr Cangrejo",
-                Vida = 290,
-                 Ataque = 100,
-                Defensa = 140,
-                Lv= 13,
-                Tipo= "Shield",
-                Source = "Assets\\srcangrejo.png"
-            },
+            
             new Personajes()
             {
                 Id = "SwordUser 2",
@@ -81,5 +49,46 @@ namespace Dsi_Proyect
                 Source = "Assets\\arenita.png"
             }
         };
+        public static List<Personajes> personajesEscudo = new List<Personajes>()
+        {
+            new Personajes()
+            {
+                Id = "ShieldUser 1",
+                Nombre = "Plancton",
+                Vida= 310,
+               Ataque = 90,
+                Defensa = 150,
+                Lv= 15,
+                Tipo= "Shield",
+                Source = "Assets\\plancton.png"
+            },
+
+            new Personajes()
+            {
+                Id = "ShieldUser 2",
+                Nombre = "Sr Cangrejo",
+                Vida = 290,
+                 Ataque = 100,
+                Defensa = 140,
+                Lv= 13,
+                Tipo= "Shield",
+                Source = "Assets\\srcangrejo.png"
+            },
+        };
+        public static List<Personajes> personajesArco = new List<Personajes>()
+        {
+            new Personajes()
+            {
+                Id = "BowUser 1",
+                Nombre = "Patricio",
+                Vida = 190,
+               Ataque = 180,
+                Defensa = 70,
+                Lv= 14,
+                Tipo= "Bow",
+                Source = "Assets\\patricio.png"
+            },
+        };
+        public static List<Personajes> personajes = personajesEspada;
     }
 }
