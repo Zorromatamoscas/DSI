@@ -6,7 +6,8 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="Beige">
+    Background="Beige"
+    Foreground="Black">
     <Page.Resources>
         <Style x:Name="Tabs" TargetType="Button">
             <Setter Property="RenderTransform">
@@ -52,71 +53,88 @@
             </StackPanel>
         </DataTemplate>-->
     </Page.Resources>
-    <Viewbox Stretch="Fill">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <!--<Grid.RowDefinitions>
+        <Viewbox Stretch="Fill" Grid.ColumnSpan="2">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <!--<Grid.RowDefinitions>
             <RowDefinition Height="40"/>
             <RowDefinition Height="3*"/>
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>-->
-        <Image Source="/Assets/tienda tatoo.png" VerticalAlignment="Top" Grid.ColumnSpan="2" Margin="270,0,0,0" Height="470"/>
-        <Viewbox Stretch="Fill">
-            <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="9*"/>
-                    </Grid.RowDefinitions>
-        
-                <Image Source = "/Assets/Cuaderno DSI.PNG" Margin="71,148,126,27" Grid.RowSpan="2"/>
-        
-                <Image Source="/Assets/cartel.png"  Width="150" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="100,40"/>
-                <Image Source="/Assets/cartel.png"  Width="200" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="70,-50"/>
+                <Image Source="/Assets/tienda tatoo.png" VerticalAlignment="Top" Grid.ColumnSpan="2" Margin="270,0,0,0" Height="470"/>
+                <Viewbox Stretch="Fill">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="9*"/>
+                        </Grid.RowDefinitions>
+
+                        <Image Source = "/Assets/Cuaderno DSI.PNG" Margin="71,148,126,27" Grid.RowSpan="2"/>
+
+                        <Image Source="/Assets/cartel.png"  Width="150" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="100,40"/>
+                        <Image Source="/Assets/cartel.png"  Width="200" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="70,-50"/>
 
 
-                <TextBlock Text="Shop" Width="200" FontSize="25" Margin="140, 40" Foreground="Black"/>
+                        <TextBlock Text="Shop" Width="200" FontSize="25" Margin="140, 40" Foreground="Black"/>
 
-                <TextBlock Text="Weapons" Width="200" FontSize="20" Margin="135, 110" Foreground="Black"/>
-                <ListView x:Name="ListView"
-                  
-                          Margin="-40,-120,0,0"
-                          Padding="80"
-                          VerticalAlignment="center"
-                          ItemsSource= "{x:Bind local:ListaArmas.weapons}"
-                          ItemTemplate="{StaticResource ListItemTemplate}" 
-                          IsItemClickEnabled="True"
-                          CanDragItems="True"
-                          IsFocusEngagementEnabled="True" 
-                          Grid.Row="1" />
-                    <StackPanel VerticalAlignment="Center" Width="275" Grid.Row="1"  >
-                    <StackPanel.RenderTransform>
-                        <TranslateTransform Y="0" X="-60"/>
-                    </StackPanel.RenderTransform>
-                    <Button Style="{StaticResource Tabs}" Content="Swords"/>
-                    <Button Style="{StaticResource Tabs}" Content="Shields"/>
-                    <Button Style="{StaticResource Tabs}" Content="Bows"/>
-                    <Button Style="{StaticResource Tabs}" Content="Specials"/>
-                </StackPanel>
+                        <TextBlock Text="Weapons" Width="200" FontSize="20" Margin="135, 110" Foreground="Black"/>
 
-                    <StackPanel HorizontalAlignment="Left" Orientation="Horizontal" Width="300" Margin="60,0,0,0" Grid.Row="1" >
-                    <StackPanel.RenderTransform>
-                        <TranslateTransform Y="140"/>
-                    </StackPanel.RenderTransform>
-                    <Button Background="Pink" Content="Shop" Width="150" Foreground="Black"/>
-                    <Button  Background="Pink" Content="Inventory" Width="150" Foreground="Black"/>
-                </StackPanel>
+                        <StackPanel VerticalAlignment="Center" Width="275" Grid.Row="1"  >
+                            <StackPanel.RenderTransform>
+                                <TranslateTransform Y="0" X="-60"/>
+                            </StackPanel.RenderTransform>
+                            <Button Style="{StaticResource Tabs}" Content="Swords" Click="Sword_Click"/>
+                            <Button Style="{StaticResource Tabs}" Content="Shields" Click="Shield_Click"/>
+                            <Button Style="{StaticResource Tabs}" Content="Bows" Click="Bow_Click"/>
+                            <Button Style="{StaticResource Tabs}" Content="Specials" Click="specials_Click"/>
+                        </StackPanel>
+
+                        <StackPanel HorizontalAlignment="Left" Orientation="Horizontal" Width="300" Margin="60,0,0,0" Grid.Row="1" >
+                            <StackPanel.RenderTransform>
+                                <TranslateTransform Y="140"/>
+                            </StackPanel.RenderTransform>
+                            <Button Background="Pink" Content="Shop" Width="150" Foreground="Black"/>
+                            <Button  Background="Pink" Content="Inventory" Width="150" Foreground="Black"/>
+                        </StackPanel>
+                    </Grid>
+                </Viewbox>
+                <Viewbox Stretch="Fill" Grid.Column="1" Margin="50,0,50,50">
+                    <Grid >
+                        <Image x:Name="WeaponImage" Source="/Assets/steelSword.png" Width="200" VerticalAlignment="Top" Margin="0,70"/>
+                        <Image Source="/Assets/Cuaderno DSI stats.PNG" Width="250" VerticalAlignment="Bottom"/>
+                        <StackPanel Margin="35,0,0,45" Orientation="Horizontal" VerticalAlignment="Bottom" >
+                            <TextBlock FontSize="12" Text="ATK" Margin="10,0"/>
+                            <TextBlock FontSize="12" Text="DEF" Margin="10,0"/>
+                            <TextBlock FontSize="12" Text="Cost" Margin="10,0"/>
+                            <TextBlock FontSize="12" Text="Good Vs" Margin="10,0"/>
+                        </StackPanel>
+                        <StackPanel x:Name="statStack" Margin="35,0,0,20" Orientation="Horizontal" VerticalAlignment="Bottom" >
+                            <TextBlock x:Name = "ATK" Margin="15,0"/>
+                            <TextBlock x:Name="DEF" Margin="15,0"/>
+                            <TextBlock x:Name="Cost" Margin="15,0"/>
+                            <Image x:Name="GoodVs" Margin="15,0" Width="20"/>
+                        </StackPanel>
+                    </Grid>
+                </Viewbox>
+
             </Grid>
         </Viewbox>
-        <Viewbox Stretch="Fill" Grid.Column="1" Margin="50,0,50,50">
-        <Grid >
-            <Image Source="/Assets/steelSword.png" Width="200" VerticalAlignment="Top" Margin="0,70"/>
-            <Image Source="/Assets/Cuaderno DSI stats.PNG" Width="200" VerticalAlignment="Bottom"/>
-        </Grid>
-        </Viewbox>
-
+        <ListView x:Name="WeaponView"
+                  Width="250"
+                  Margin="50,80,0,0"
+          ItemsSource= "{x:Bind local:ListaArmas.Swordweapons}"
+          ItemTemplate="{StaticResource ListItemTemplate}" 
+          IsItemClickEnabled="True"
+          CanDragItems="True"
+          ItemClick="WeaponView_ItemClick"
+          IsFocusEngagementEnabled="True" Height="300"/>
     </Grid>
-    </Viewbox>
 </Page>

@@ -153,7 +153,7 @@
       <RootProperty Name="IsItemClickEnabled" />
       <RootProperty Name="CanDragItems" />
       <RootProperty Name="IsFocusEngagementEnabled" />
-      <RootProperty Name="Padding" />
+      <RootProperty Name="Height" />
       <RootEvent Name="ItemClick" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />

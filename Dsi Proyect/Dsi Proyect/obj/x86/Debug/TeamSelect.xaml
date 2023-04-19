@@ -127,7 +127,7 @@
         </Viewbox>
         <ListView x:ConnectionId='9' x:Name="ListView"
                   
-                  Margin="10"
+                  Margin="-50,0,0,0"
                   Width="170"   
                   VerticalAlignment="center"
                                                                    

@@ -43,6 +43,9 @@
     <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\bowIcon.png">
       <PackagePath>Assets\bowIcon.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\brokenBow.png">
+      <PackagePath>Assets\brokenBow.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\cartel.png">
       <PackagePath>Assets\cartel.png</PackagePath>
     </AppxPackagedFile>
@@ -55,11 +58,23 @@
     <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\Cuaderno DSI.PNG">
       <PackagePath>Assets\Cuaderno DSI.PNG</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\espadaDiamante.png">
+      <PackagePath>Assets\espadaDiamante.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\firstBow.png">
+      <PackagePath>Assets\firstBow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\ironShield.png">
+      <PackagePath>Assets\ironShield.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\patricio.png">
       <PackagePath>Assets\patricio.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\plancton.png">
       <PackagePath>Assets\plancton.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\pocion.png">
+      <PackagePath>Assets\pocion.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\shieldIcon.png">
       <PackagePath>Assets\shieldIcon.png</PackagePath>
@@ -81,6 +96,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\InterfazDeCombate.PNG">
       <PackagePath>Assets\InterfazDeCombate.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\titanShield.png">
+      <PackagePath>Assets\titanShield.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>

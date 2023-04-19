@@ -2,16 +2,21 @@ WinMetadata\Windows.winmd
 Assets\arenita.png
 Assets\bobesponja.png
 Assets\bowIcon.png
+Assets\brokenBow.png
 Assets\cartel.png
 Assets\Cuaderno DSI boton.png
 Assets\Cuaderno DSI stats.png
 Assets\Cuaderno DSI.PNG
 Assets\cuadernoMapa.jpg
+Assets\espadaDiamante.png
+Assets\firstBow.png
 Assets\InterfazDeCombate.PNG
+Assets\ironShield.png
 Assets\LockScreenLogo.scale-200.png
 Assets\mapa.jpg
 Assets\patricio.png
 Assets\plancton.png
+Assets\pocion.png
 Assets\shieldIcon.png
 Assets\SplashScreen.scale-200.png
 Assets\Square150x150Logo.scale-200.png
@@ -23,6 +28,7 @@ Assets\StoreLogo.png
 Assets\swordIcon.png
 Assets\Tattoo de seleccion.PNG
 Assets\tienda tatoo.png
+Assets\titanShield.png
 Assets\Wide310x150Logo.scale-200.png
 App.xbf
 Dsi Proyect.xr.xml
