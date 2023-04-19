@@ -22,6 +22,7 @@ namespace Dsi_Proyect
     /// </summary>
     public sealed partial class WeaponStore : Page
     {
+        int gold = 2500;
         public WeaponStore()
         {
             this.InitializeComponent();
@@ -29,6 +30,7 @@ namespace Dsi_Proyect
 
         private void WeaponView_ItemClick(object sender, ItemClickEventArgs e)
         {
+            ListView lv = sender as ListView;
             Armas w = e.ClickedItem as Armas;
             ATK.Text = w.Ataque.ToString();
             DEF.Text = w.Defensa.ToString();
@@ -65,6 +67,21 @@ namespace Dsi_Proyect
         private void specials_Click(object sender, RoutedEventArgs e)
         {
             WeaponView.ItemsSource = ListaArmas.specials;
+        }
+
+        private void buy_Click(object sender, RoutedEventArgs e)
+        {
+            if(WeaponView.SelectedItem!= null)
+            {
+                if((WeaponView.SelectedItem as Armas).Coste<= gold)
+                {
+                    gold -= (WeaponView.SelectedItem as Armas).Coste;
+                    myMoney.Text = gold.ToString();
+                    //WeaponView.Items.RemoveAt(WeaponView.SelectedIndex);
+                    //WeaponView.SelectedItem = null;
+                    
+                }
+            }
         }
     }
 }

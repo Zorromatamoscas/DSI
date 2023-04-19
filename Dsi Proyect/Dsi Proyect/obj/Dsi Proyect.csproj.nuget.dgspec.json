@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mirgu\\Documents\\GitHub\\DSI\\Dsi Proyect\\Dsi Proyect\\Dsi Proyect.csproj": {}
+    "C:\\Users\\pedro\\OneDrive\\Documentos\\FP2\\DSI\\Dsi Proyect\\Dsi Proyect\\Dsi Proyect.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mirgu\\Documents\\GitHub\\DSI\\Dsi Proyect\\Dsi Proyect\\Dsi Proyect.csproj": {
+    "C:\\Users\\pedro\\OneDrive\\Documentos\\FP2\\DSI\\Dsi Proyect\\Dsi Proyect\\Dsi Proyect.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mirgu\\Documents\\GitHub\\DSI\\Dsi Proyect\\Dsi Proyect\\Dsi Proyect.csproj",
+        "projectUniqueName": "C:\\Users\\pedro\\OneDrive\\Documentos\\FP2\\DSI\\Dsi Proyect\\Dsi Proyect\\Dsi Proyect.csproj",
         "projectName": "Dsi Proyect",
-        "projectPath": "C:\\Users\\mirgu\\Documents\\GitHub\\DSI\\Dsi Proyect\\Dsi Proyect\\Dsi Proyect.csproj",
-        "packagesPath": "C:\\Users\\mirgu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mirgu\\Documents\\GitHub\\DSI\\Dsi Proyect\\Dsi Proyect\\obj\\",
+        "projectPath": "C:\\Users\\pedro\\OneDrive\\Documentos\\FP2\\DSI\\Dsi Proyect\\Dsi Proyect\\Dsi Proyect.csproj",
+        "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pedro\\OneDrive\\Documentos\\FP2\\DSI\\Dsi Proyect\\Dsi Proyect\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\mirgu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

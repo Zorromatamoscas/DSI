@@ -101,13 +101,16 @@
                             <StackPanel.RenderTransform>
                                 <TranslateTransform Y="140"/>
                             </StackPanel.RenderTransform>
-                            <Button Background="Pink" Content="Shop" Width="150" Foreground="Black"/>
+                            <Button Background="Pink" Content="Buy" Width="150" Foreground="Black" Click="buy_Click"/>
                             <Button  Background="Pink" Content="Inventory" Width="150" Foreground="Black"/>
                         </StackPanel>
+
                     </Grid>
                 </Viewbox>
                 <Viewbox Stretch="Fill" Grid.Column="1" Margin="50,0,50,50">
                     <Grid >
+                        <Image Source="/Assets/Capture.png" Width="30" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,0,-40,0"/>
+                        <TextBlock x:Name="myMoney" Text="{x:Bind gold}" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Right"/>
                         <Image x:Name="WeaponImage" Source="/Assets/steelSword.png" Width="200" VerticalAlignment="Top" Margin="0,70"/>
                         <Image Source="/Assets/Cuaderno DSI stats.PNG" Width="250" VerticalAlignment="Bottom"/>
                         <StackPanel Margin="35,0,0,45" Orientation="Horizontal" VerticalAlignment="Bottom" >

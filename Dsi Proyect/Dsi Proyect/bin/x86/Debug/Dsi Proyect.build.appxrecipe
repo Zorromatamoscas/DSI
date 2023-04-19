@@ -46,6 +46,9 @@
     <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\brokenBow.png">
       <PackagePath>Assets\brokenBow.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\Capture.png">
+      <PackagePath>Assets\Capture.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\cartel.png">
       <PackagePath>Assets\cartel.png</PackagePath>
     </AppxPackagedFile>
