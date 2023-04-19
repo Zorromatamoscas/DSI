@@ -9,13 +9,23 @@
     Background="#FF444444">
 
     <Page.Resources>
-        <Style TargetType="Button">
+        <Style x:Key="PurpleStyle" TargetType="Button">
             <Setter Property="HorizontalAlignment" Value="Center"></Setter>
             <Setter Property="Margin" Value="20"></Setter>
             <Setter Property="Background" Value="#2e1672"></Setter>
             <Setter Property="Foreground" Value="#f9f6dc"></Setter>
             <Setter Property="Width" Value="100"></Setter>
         </Style>
+
+        <Style x:Key="BattleStyle" TargetType="Button">
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="Background" Value="Green"></Setter>
+            <Setter Property="Width" Value="31"></Setter>
+            <Setter Property="Height" Value="31"></Setter>
+        </Style>
+
+        
     </Page.Resources>
     <Viewbox>
     <Grid>
@@ -25,18 +35,80 @@
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
 
-        <Image Grid.Column="1" Source="/Assets/InterfazDeCombate.PNG" Width="300" Height="500"></Image>
+        
 
-            <Rectangle Width="300"></Rectangle>
-            <Rectangle Width="200" Height="400" Fill="#8b51f5" Stroke="#130b34"></Rectangle>
-            <StackPanel Margin=" 50">
-                <Button Content="Play"></Button>
-                <Button Content="Objects"></Button>
-                <Button Content="Pass"></Button>
-                <Button Content="Store"></Button>
-                <Button Content="Return"></Button>
+            <StackPanel Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button Style="{StaticResource BattleStyle}" Background="Gray"></Button>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button Style="{StaticResource BattleStyle}" Background="Gray"></Button>
+                    <Button Style="{StaticResource BattleStyle}"></Button>
+                    <Button Style="{StaticResource BattleStyle}" Background="Gray"></Button>
+                </StackPanel>
+                
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button Style="{StaticResource BattleStyle}" Background="Gray"></Button>
+                    <Button Style="{StaticResource BattleStyle}"></Button>
+                    <Button Style="{StaticResource BattleStyle}"></Button>
+                    <Button Style="{StaticResource BattleStyle}"></Button>
+                    <Button Style="{StaticResource BattleStyle}" Background="Gray"></Button>
+                </StackPanel>
+                
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button Style="{StaticResource BattleStyle}" Background="Gray"></Button>
+                    <Button Style="{StaticResource BattleStyle}"></Button>
+                    <Button Style="{StaticResource BattleStyle}"></Button>
+                    <Button Style="{StaticResource BattleStyle}"></Button>
+                    <Button Style="{StaticResource BattleStyle}"></Button>
+                    <Button Style="{StaticResource BattleStyle}"></Button>
+                    <Button Style="{StaticResource BattleStyle}" Background="Gray"></Button>
+
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button Style="{StaticResource BattleStyle}" Background="Gray" ></Button>
+                    <Button Style="{StaticResource BattleStyle}" ></Button>
+                    <Button Style="{StaticResource BattleStyle}" ></Button>
+                    <Button Style="{StaticResource BattleStyle}" ></Button>
+                    <Button Style="{StaticResource BattleStyle}" Background="White"></Button>
+                    <Button Style="{StaticResource BattleStyle}" Background="Crimson"></Button>
+                    <Button Style="{StaticResource BattleStyle}"></Button>
+                    <Button Style="{StaticResource BattleStyle}"></Button>
+                    <Button Style="{StaticResource BattleStyle}" Background="Gray"></Button>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button Style="{StaticResource BattleStyle}" Background="Gray"></Button>
+                    <Button Style="{StaticResource BattleStyle}"></Button>
+                    <Button Style="{StaticResource BattleStyle}"></Button>
+                    <Button Style="{StaticResource BattleStyle}"></Button>
+                    <Button Style="{StaticResource BattleStyle}"></Button>
+                    <Button Style="{StaticResource BattleStyle}"></Button>
+                    <Button Style="{StaticResource BattleStyle}" Background="Gray"></Button>
+
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button Style="{StaticResource BattleStyle}" Background="Gray"></Button>
+                    <Button Style="{StaticResource BattleStyle}"></Button>
+                    <Button Style="{StaticResource BattleStyle}"></Button>
+                    <Button Style="{StaticResource BattleStyle}"></Button>
+                    <Button Style="{StaticResource BattleStyle}" Background="Gray"></Button>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button Style="{StaticResource BattleStyle}" Background="Gray"></Button>
+                    <Button Style="{StaticResource BattleStyle}"></Button>
+                    <Button Style="{StaticResource BattleStyle}" Background="Gray"></Button>
+                </StackPanel>
+                <Button Style="{StaticResource BattleStyle}" Background="Gray"></Button>
             </StackPanel>
-            <Rectangle Width="300" Grid.Column="2"></Rectangle>
+            
+            <Rectangle Width="200" Height="400" Fill="#8b51f5" Stroke="#130b34"></Rectangle>
+            <StackPanel Margin=" 100">
+                <Button Content="Ataca!" Style="{StaticResource PurpleStyle}"></Button>
+                <Button Content="Objects" Style="{StaticResource PurpleStyle}"></Button>
+                <Button Content="Pass" Style="{StaticResource PurpleStyle}"></Button>
+                <Button Content="Store" Style="{StaticResource PurpleStyle}"></Button>
+                <Button Content="Return" Style="{StaticResource PurpleStyle}"></Button>
+            </StackPanel>
+            
             <StackPanel Grid.Column="2" Margin="50">
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                     <TextBox Background="White" Text="HP" FontSize="15" Foreground="Black" 

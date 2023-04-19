@@ -26,5 +26,10 @@ namespace Dsi_Proyect
         {
             this.InitializeComponent();
         }
+
+        private void Play_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(TeamSelect));
+        }
     }
 }

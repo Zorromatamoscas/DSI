@@ -44,7 +44,7 @@
         </Grid.Background>
 
         <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Center">
-            <Button x:ConnectionId='2' Content="Play" Name="Play">
+            <Button x:ConnectionId='2' Content="Play" Name="Play"                   >
             </Button>
             <Button Content="Store">
             </Button>
@@ -54,7 +54,13 @@
             </Button>
         </StackPanel>
 
-        <StackPanel Grid.Column="1" VerticalAlignment="Center">
+            <Image Grid.Column="1" Source="/Assets/Capture.png"
+                   Width="300"
+                   Height="300"  
+                   Opacity="0.5"
+                   />
+               
+            <StackPanel Grid.Column="1" VerticalAlignment="Center">
             <TextBlock Text="WATER TATTOO" Margin="50"></TextBlock>
             <TextBlock Text="Three Shacks" FontSize="50"></TextBlock>
         </StackPanel>
