@@ -6,7 +6,8 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="Beige">
+    Background="Beige"
+    Foreground="Black">
     <Page.Resources>
         <Style x:Name="Tabs" TargetType="Button">
             <Setter Property="RenderTransform">
@@ -16,7 +17,7 @@
             </Setter>
             <Setter Property="Background" Value="LightSkyBlue"/>
             <Setter Property="Width" Value="100"/>
-            <Setter Property="Margin" Value="0,30"/>
+            <Setter Property="Margin" Value="0,33"/>
             <Setter Property="Foreground" Value="Black"/>
         </Style>
         <DataTemplate x:Key="ListItemTemplate"
@@ -52,62 +53,88 @@
             </StackPanel>
         </DataTemplate>-->
     </Page.Resources>
-    <Viewbox Stretch="Fill">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <!--<Grid.RowDefinitions>
+        <Viewbox Stretch="Fill" Grid.ColumnSpan="2">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <!--<Grid.RowDefinitions>
             <RowDefinition Height="40"/>
             <RowDefinition Height="3*"/>
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>-->
-        <Image Source="/Assets/tienda tatoo.png" Grid.ColumnSpan="2" Margin="213,0,0,0" />
+                <Image Source="/Assets/tienda tatoo.png" Grid.ColumnSpan="2" Margin="213,0,0,0" />
 
-        <Viewbox StretchDirection="Both" Stretch="Fill">
-        <Grid>
-        <Image Source = "/Assets/Cuaderno DSI.PNG" Width="225" Height="350"/>
-        
-        <Image Source="/Assets/cartel.png"  Width="300" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="70,-100"/>
-        <Image Source="/Assets/Cuaderno DSI stats.PNG" Width="300" VerticalAlignment="Bottom"/>
+                <Viewbox StretchDirection="Both" Stretch="Fill">
+                    <Grid>
+                        <Image Source = "/Assets/Cuaderno DSI.PNG" Margin="70,111,126,112"/>
+
+                        <Image Source="/Assets/cartel.png"  Width="194" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="70,-50,0,0" Height="140"/>
+                        <Canvas x:Name="myCanvas" VerticalAlignment="Bottom" Margin="50,0,0,70">
+                            <Image Source="/Assets/Cuaderno DSI stats.PNG" Width="250"/>
+                            <Image x:Name="pjImage" Width="50"  Margin="0,10,0,0" VerticalAlignment="Bottom" HorizontalAlignment="Left" Height="44"/>
+                            <StackPanel Margin="40,0,0,0" Orientation="Horizontal" >
+                                <TextBlock FontSize="12" Text="HP" Margin="10,0"/>
+                                <TextBlock FontSize="12" Text="ATK" Margin="10,0"/>
+                                <TextBlock FontSize="12" Text="DEF" Margin="10,0"/>
+                                <TextBlock FontSize="12" Text="Lv" Margin="10,0"/>
+                                <TextBlock FontSize="12" Text="Type" Margin="10,0"/>
+                            </StackPanel>
+                            <StackPanel x:Name="statStack" Margin="40,35,0,0" Orientation="Horizontal" >
+                                <TextBlock x:Name = "HP" Margin="10,0"/>
+                                <TextBlock x:Name = "ATK" Margin="10,0"/>
+                                <TextBlock x:Name="DEF" Margin="10,0"/>
+                                <TextBlock x:Name="Lv" Margin="10,0"/>
+                                <TextBlock x:Name="Type" Margin="10,0"/>
+                            </StackPanel>
+                        </Canvas>
+
+                        <TextBlock Text="Select Team" FontSize="25" Margin="100,40,0,0" HorizontalAlignment="Left" IsColorFontEnabled="True" Foreground="Black" Width="142"/>
 
 
-        <TextBlock Text="Select Team" FontSize="35" Margin="120, 40" HorizontalAlignment="Left" IsColorFontEnabled="True" Foreground="Black"/>
-        <Image Source="/Assets/bobesponja.png" Width="50"  Margin="150,0" VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
+                        <StackPanel VerticalAlignment="Center" Width="275" >
+                            <StackPanel.RenderTransform>
+                                <TranslateTransform Y="70" X="-25"/>
+                            </StackPanel.RenderTransform>
+                            <Button Style="{StaticResource Tabs}" Content="Sword" Click="Sword_Click"/>
+                            <Button Style="{StaticResource Tabs}" Content="Shield" Click="Shield_Click"/>
+                            <Button Style="{StaticResource Tabs}" Content="Bow" Click="Bow_Click"/>
+                        </StackPanel>
+                    </Grid>
+                </Viewbox >
+                <Viewbox Grid.Column="1" Margin="30,30,30,30" StretchDirection="Both" Stretch="Fill">
+                    <Grid>
+                        <Image Source="/Assets/cuadernoMapa.jpg" Width="300" Margin="30,30,30,30"/>
+                        <Image Source="/Assets/mapa.jpg"  Width="250" Margin="20,0,0,0"/>
+                        <Image Source="/Assets/Cuaderno DSI boton.png"  Width="150" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,0,0" />
+                        <Button HorizontalAlignment="Center" Height="50" Width="50" Margin="-90,180,0,0" Click="Ally1_Click" Background="Transparent">
+                            <Image x:Name="allySpace1"/>
+                        </Button>
+                        <Button HorizontalAlignment="Center" Height="50" Width="50"  Margin="150,180,0,0" Click="Ally2_Click" Background="Transparent">
+                            <Image x:Name="allySpace2" />
+                        </Button>
+
+                        <Button Content="Ready" VerticalAlignment="Bottom" HorizontalAlignment="Right" Background="Transparent" Foreground="Black" BorderBrush="Black" BorderThickness="1" Margin="25,5" FontSize="30"/>
+                    </Grid>
+                </Viewbox>
+            </Grid>
+        </Viewbox>
         <ListView x:Name="ListView"
                   
-                  Margin="10"
-                  Padding="100"
+                  Margin="-50,0,0,0"
+                  Width="170"   
                   VerticalAlignment="center"
                   ItemsSource= "{x:Bind local:ListaPj.personajes }"
                   ItemTemplate="{StaticResource ListItemTemplate}" 
                   IsItemClickEnabled="True"
+                  ItemClick="ListView_ItemClick"
                   CanDragItems="True"
                   IsFocusEngagementEnabled="True"/>
-
-        <StackPanel VerticalAlignment="Center" Width="275" >
-            <StackPanel.RenderTransform>
-                <TranslateTransform Y="70"/>
-            </StackPanel.RenderTransform>
-            <Button Style="{StaticResource Tabs}" Content="Sword"/>
-            <Button Style="{StaticResource Tabs}" Content="Shield"/>
-            <Button Style="{StaticResource Tabs}" Content="Bow"/>
-        </StackPanel>
-        </Grid>
-        </Viewbox >
-        <Viewbox Grid.Column="1" Margin="30,30,30,30" StretchDirection="Both" Stretch="Fill">
-            <Grid>
-                <Image Source="/Assets/cuadernoMapa.jpg" Width="300" Margin="30,30,30,30"/>
-                <Image Source="/Assets/mapa.jpg"  Width="250" Margin="20,0,0,0"/>
-                <Image Source="/Assets/Cuaderno DSI boton.png"  Width="150" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,0,0" />
-                <Button Content="Ready" VerticalAlignment="Bottom" HorizontalAlignment="Right" Background="Transparent" Foreground="Black" BorderBrush="Black" BorderThickness="1" Margin="25,5" FontSize="30"/>
-            </Grid>
-        </Viewbox>
-        
-            
-       
-
     </Grid>
-    </Viewbox>
 </Page>

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-95N2NUT</Machine>
-    <WindowsUser>Javi</WindowsUser>
+    <Machine>LAPTOP-I9HOU9CK</Machine>
+    <WindowsUser>pedro</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>b4e93bbe-bd33-434e-a806-184d81b87d0d</PackageIdentityName>
     <PackageIdentityPublisher>CN=Rafa</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>38BCDDE488021411796F3F21C38347D2D2D3A1CC30039EE9B9709087A27E4E76</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>EED1A97E4F8F69C2392AF8ED8A504E0D56222F74915F8468913700823435231F</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>b4e93bbe-bd33-434e-a806-184d81b87d0d_1.0.0.0_x86__7ypas8tsghhvr</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>b4e93bbe-bd33-434e-a806-184d81b87d0d_7ypas8tsghhvr!App</RegisteredUserModeAppID>
     <RegisteredPackageID>b4e93bbe-bd33-434e-a806-184d81b87d0d</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-04-19T09:50:20.518</Modified>
+      <Modified>2023-04-19T09:49:33.515</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\Dsi Proyect.exe">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\Dsi Proyect.exe">
       <PackagePath>entrypoint\Dsi Proyect.exe</PackagePath>
-      <Modified>2023-04-19T09:50:19.611</Modified>
+      <Modified>2023-04-19T09:49:32.544</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,139 +46,187 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2020-12-02T02:52:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\bobesponja.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\arenita.png">
+      <PackagePath>Assets\arenita.png</PackagePath>
+      <Modified>2023-04-18T13:05:16.266</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\bobesponja.png">
       <PackagePath>Assets\bobesponja.png</PackagePath>
-      <Modified>2023-04-09T07:35:10.041</Modified>
+      <Modified>2023-04-11T13:10:02.940</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\Capture.png">
-      <PackagePath>Assets\Capture.png</PackagePath>
-      <Modified>2023-04-19T09:31:06.777</Modified>
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\bowIcon.png">
+      <PackagePath>Assets\bowIcon.png</PackagePath>
+      <Modified>2023-04-18T13:05:16.271</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\cartel.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\brokenBow.png">
+      <PackagePath>Assets\brokenBow.png</PackagePath>
+      <Modified>2023-04-19T09:28:16.503</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\cartel.png">
       <PackagePath>Assets\cartel.png</PackagePath>
-      <Modified>2023-04-12T12:30:11.947</Modified>
+      <Modified>2023-04-11T13:10:02.943</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\Cuaderno DSI boton.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\Cuaderno DSI boton.png">
       <PackagePath>Assets\Cuaderno DSI boton.png</PackagePath>
-      <Modified>2023-04-12T12:30:11.912</Modified>
+      <Modified>2023-04-11T14:34:45.894</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\Cuaderno DSI stats.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\Cuaderno DSI stats.png">
       <PackagePath>Assets\Cuaderno DSI stats.png</PackagePath>
-      <Modified>2023-04-12T12:30:11.922</Modified>
+      <Modified>2023-04-11T13:10:02.934</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\Cuaderno DSI.PNG">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\Cuaderno DSI.PNG">
       <PackagePath>Assets\Cuaderno DSI.PNG</PackagePath>
-      <Modified>2023-04-09T07:35:10.024</Modified>
+      <Modified>2023-04-11T13:10:02.936</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\steelSword.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\espadaDiamante.png">
+      <PackagePath>Assets\espadaDiamante.png</PackagePath>
+      <Modified>2023-04-19T08:52:31.544</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\firstBow.png">
+      <PackagePath>Assets\firstBow.png</PackagePath>
+      <Modified>2023-04-19T09:31:27.787</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\ironShield.png">
+      <PackagePath>Assets\ironShield.png</PackagePath>
+      <Modified>2023-04-19T09:18:15.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\patricio.png">
+      <PackagePath>Assets\patricio.png</PackagePath>
+      <Modified>2023-04-18T13:05:16.282</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\plancton.png">
+      <PackagePath>Assets\plancton.png</PackagePath>
+      <Modified>2023-04-18T13:05:16.293</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\pocion.png">
+      <PackagePath>Assets\pocion.png</PackagePath>
+      <Modified>2023-04-19T09:35:28.465</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\shieldIcon.png">
+      <PackagePath>Assets\shieldIcon.png</PackagePath>
+      <Modified>2023-04-18T13:05:16.299</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\srcangrejo.png">
+      <PackagePath>Assets\srcangrejo.png</PackagePath>
+      <Modified>2023-04-18T13:05:16.310</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\steelSword.png">
       <PackagePath>Assets\steelSword.png</PackagePath>
-      <Modified>2023-04-12T12:30:11.976</Modified>
+      <Modified>2023-04-11T13:10:02.947</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\Tattoo de seleccion.PNG">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\swordIcon.png">
+      <PackagePath>Assets\swordIcon.png</PackagePath>
+      <Modified>2023-04-18T13:05:16.315</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\Tattoo de seleccion.PNG">
       <PackagePath>Assets\Tattoo de seleccion.PNG</PackagePath>
-      <Modified>2023-04-12T12:30:11.929</Modified>
+      <Modified>2023-04-11T13:10:02.939</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\tienda tatoo.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\tienda tatoo.png">
       <PackagePath>Assets\tienda tatoo.png</PackagePath>
-      <Modified>2023-04-12T12:30:11.991</Modified>
+      <Modified>2023-04-11T13:10:02.949</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\InterfazDeCombate.PNG">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\InterfazDeCombate.PNG">
       <PackagePath>Assets\InterfazDeCombate.PNG</PackagePath>
-      <Modified>2023-04-12T13:13:04.071</Modified>
+      <Modified>2023-04-12T18:38:45.737</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\titanShield.png">
+      <PackagePath>Assets\titanShield.png</PackagePath>
+      <Modified>2023-04-19T09:20:46.062</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2023-04-09T07:35:10.029</Modified>
+      <Modified>2023-04-11T13:10:02.936</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-04-09T07:35:10.029</Modified>
+      <Modified>2023-04-11T13:10:02.937</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-04-09T07:35:10.029</Modified>
+      <Modified>2023-04-11T13:10:02.937</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-04-09T07:35:10.029</Modified>
+      <Modified>2023-04-11T13:10:02.938</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-04-09T07:35:10.029</Modified>
+      <Modified>2023-04-11T13:10:02.938</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-04-09T07:35:10.029</Modified>
+      <Modified>2023-04-11T13:10:02.939</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-04-09T07:35:10.037</Modified>
+      <Modified>2023-04-11T13:10:02.939</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\cuadernoMapa.jpg">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\cuadernoMapa.jpg">
       <PackagePath>Assets\cuadernoMapa.jpg</PackagePath>
-      <Modified>2023-04-12T12:30:11.960</Modified>
+      <Modified>2023-04-11T13:10:02.945</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\mapa.jpg">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\mapa.jpg">
       <PackagePath>Assets\mapa.jpg</PackagePath>
-      <Modified>2023-04-12T12:30:11.967</Modified>
+      <Modified>2023-04-11T13:10:02.946</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2023-04-09T07:35:10.129</Modified>
+      <Modified>2023-04-11T13:10:02.954</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\Dsi Proyect.xr.xml">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\Dsi Proyect.xr.xml">
       <PackagePath>Dsi Proyect.xr.xml</PackagePath>
-      <Modified>2023-04-19T09:49:30.173</Modified>
+      <Modified>2023-04-18T14:14:50.315</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-04-19T09:50:19.473</Modified>
+      <Modified>2023-04-19T09:49:32.412</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\InitialShop.xbf">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\InitialShop.xbf">
       <PackagePath>InitialShop.xbf</PackagePath>
-      <Modified>2023-04-19T09:50:19.473</Modified>
+      <Modified>2023-04-19T09:49:32.412</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2023-04-19T09:50:19.474</Modified>
+      <Modified>2023-04-19T09:49:32.413</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\MenuDeCombate.xbf">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\MenuDeCombate.xbf">
       <PackagePath>MenuDeCombate.xbf</PackagePath>
-      <Modified>2023-04-19T09:50:19.463</Modified>
+      <Modified>2023-04-19T09:49:32.413</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\MenuDeOpciones.xbf">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\MenuDeOpciones.xbf">
       <PackagePath>MenuDeOpciones.xbf</PackagePath>
-      <Modified>2023-04-19T09:50:19.474</Modified>
+      <Modified>2023-04-19T09:49:32.413</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\MenuPrincipal.xbf">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\MenuPrincipal.xbf">
       <PackagePath>MenuPrincipal.xbf</PackagePath>
-      <Modified>2023-04-19T09:50:19.474</Modified>
+      <Modified>2023-04-19T09:49:32.413</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\TeamSelect.xbf">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\TeamSelect.xbf">
       <PackagePath>TeamSelect.xbf</PackagePath>
-      <Modified>2023-04-19T09:50:19.475</Modified>
+      <Modified>2023-04-19T09:49:32.408</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\WeaponStore.xbf">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\WeaponStore.xbf">
       <PackagePath>WeaponStore.xbf</PackagePath>
-      <Modified>2023-04-19T09:50:19.475</Modified>
+      <Modified>2023-04-19T09:49:32.414</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2020-12-02T00:52:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-04-19T09:49:31.540</Modified>
+      <Modified>2023-04-19T09:49:32.881</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\Core\Dsi Proyect.exe">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\Core\Dsi Proyect.exe">
       <PackagePath>Dsi Proyect.exe</PackagePath>
-      <Modified>2023-04-19T09:50:20.510</Modified>
+      <Modified>2023-04-19T09:49:33.509</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
