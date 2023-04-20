@@ -75,7 +75,7 @@
 
                 <Viewbox StretchDirection="Both" Stretch="Fill">
                     <Grid>
-                        <Button x:ConnectionId='16' x:Name="backButton"
+                        <Button x:ConnectionId='17' x:Name="backButton"
                          Margin="10"
                          Background="Gray"
                          Style="{StaticResource NavigationBackButtonNormalStyle}"
@@ -121,18 +121,18 @@
                 <Viewbox Grid.Column="1" Margin="30,30,30,30" StretchDirection="Both" Stretch="Fill">
                     <Grid>
                         <Image Source="/Assets/cuadernoMapa.jpg" Width="300" Margin="30,30,30,30"/>
-                        <Canvas x:ConnectionId='10' x:Name="myCanvas" Margin="50,100,0,0">
+                        <Canvas x:ConnectionId='11' x:Name="myCanvas" Margin="50,100,0,0">
                         <Image Source="/Assets/mapa.jpg"  Width="250" Margin="20,0,0,0"/>
                         </Canvas>
                         <Image Source="/Assets/Cuaderno DSI boton.png"  Width="150" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,0,0" />
-                        <Button x:ConnectionId='11' x:Name="Ally_button_1"                                                   AllowDrop="True" HorizontalAlignment="Center" Height="50" Width="50" Margin="-90,180,0,0"                     Background="Transparent">
-                            <Image x:ConnectionId='14' x:Name="allySpace1"/>
+                        <Button x:ConnectionId='12' x:Name="Ally_button_1"                                                   AllowDrop="True" HorizontalAlignment="Center" Height="50" Width="50" Margin="-90,180,0,0"                     Background="Transparent">
+                            <Image x:ConnectionId='16' x:Name="allySpace1"/>
                         </Button>
-                        <Button x:ConnectionId='12' x:Name="Ally_button_2"                                                   AllowDrop="True" HorizontalAlignment="Center" Height="50" Width="50"  Margin="150,180,0,0"                     Background="Transparent">
-                            <Image x:ConnectionId='13' x:Name="allySpace2" />
+                        <Button x:ConnectionId='13' x:Name="Ally_button_2"                                                   AllowDrop="True" HorizontalAlignment="Center" Height="50" Width="50"  Margin="150,180,0,0"                     Background="Transparent">
+                            <Image x:ConnectionId='15' x:Name="allySpace2" />
                         </Button>
 
-                        <Button x:ConnectionId='13' Content="Ready" 
+                        <Button x:ConnectionId='14' Content="Ready" 
                                 VerticalAlignment="Bottom" 
                                 HorizontalAlignment="Right" 
                                 Background="Transparent" 

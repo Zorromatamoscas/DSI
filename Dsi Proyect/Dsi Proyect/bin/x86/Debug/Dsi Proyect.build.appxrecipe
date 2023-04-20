@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-95N2NUT</Machine>
-    <WindowsUser>Javi</WindowsUser>
+    <Machine>LAPTOP-I9HOU9CK</Machine>
+    <WindowsUser>pedro</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>b4e93bbe-bd33-434e-a806-184d81b87d0d</PackageIdentityName>
     <PackageIdentityPublisher>CN=Rafa</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\Dsi Proyect.exe">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\Dsi Proyect.exe">
       <PackagePath>entrypoint\Dsi Proyect.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
@@ -34,145 +34,145 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\arenita.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\arenita.png">
       <PackagePath>Assets\arenita.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\bobesponja.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\bobesponja.png">
       <PackagePath>Assets\bobesponja.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\bowIcon.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\bowIcon.png">
       <PackagePath>Assets\bowIcon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\brokenBow.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\brokenBow.png">
       <PackagePath>Assets\brokenBow.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\Capture.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\Capture.png">
       <PackagePath>Assets\Capture.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\cartel.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\cartel.png">
       <PackagePath>Assets\cartel.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\Cuaderno DSI boton.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\Cuaderno DSI boton.png">
       <PackagePath>Assets\Cuaderno DSI boton.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\Cuaderno DSI stats.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\Cuaderno DSI stats.png">
       <PackagePath>Assets\Cuaderno DSI stats.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\Cuaderno DSI.PNG">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\Cuaderno DSI.PNG">
       <PackagePath>Assets\Cuaderno DSI.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\espadaDiamante.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\espadaDiamante.png">
       <PackagePath>Assets\espadaDiamante.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\firstBow.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\firstBow.png">
       <PackagePath>Assets\firstBow.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\ironShield.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\ironShield.png">
       <PackagePath>Assets\ironShield.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\patricio.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\patricio.png">
       <PackagePath>Assets\patricio.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\plancton.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\plancton.png">
       <PackagePath>Assets\plancton.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\pocion.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\pocion.png">
       <PackagePath>Assets\pocion.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\shieldIcon.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\shieldIcon.png">
       <PackagePath>Assets\shieldIcon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\srcangrejo.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\srcangrejo.png">
       <PackagePath>Assets\srcangrejo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\steelSword.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\steelSword.png">
       <PackagePath>Assets\steelSword.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\swordIcon.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\swordIcon.png">
       <PackagePath>Assets\swordIcon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\Tattoo de seleccion.PNG">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\Tattoo de seleccion.PNG">
       <PackagePath>Assets\Tattoo de seleccion.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\tienda tatoo.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\tienda tatoo.png">
       <PackagePath>Assets\tienda tatoo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\InterfazDeCombate.PNG">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\InterfazDeCombate.PNG">
       <PackagePath>Assets\InterfazDeCombate.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\titanShield.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\titanShield.png">
       <PackagePath>Assets\titanShield.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\cuadernoMapa.jpg">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\cuadernoMapa.jpg">
       <PackagePath>Assets\cuadernoMapa.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Assets\mapa.jpg">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Assets\mapa.jpg">
       <PackagePath>Assets\mapa.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\Dsi Proyect.xr.xml">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\Dsi Proyect.xr.xml">
       <PackagePath>Dsi Proyect.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\Dictionary1.xbf">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\Dictionary1.xbf">
       <PackagePath>Dictionary1.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\InitialShop.xbf">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\InitialShop.xbf">
       <PackagePath>InitialShop.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\MenuDeCombate.xbf">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\MenuDeCombate.xbf">
       <PackagePath>MenuDeCombate.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\MenuDeOpciones.xbf">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\MenuDeOpciones.xbf">
       <PackagePath>MenuDeOpciones.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\MenuPrincipal.xbf">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\MenuPrincipal.xbf">
       <PackagePath>MenuPrincipal.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\TeamSelect.xbf">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\TeamSelect.xbf">
       <PackagePath>TeamSelect.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\WeaponStore.xbf">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\WeaponStore.xbf">
       <PackagePath>WeaponStore.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\Core\Dsi Proyect.exe">
+    <AppxPackagedFile Include="C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\Core\Dsi Proyect.exe">
       <PackagePath>Dsi Proyect.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

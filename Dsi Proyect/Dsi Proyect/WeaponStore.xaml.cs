@@ -22,6 +22,7 @@ namespace Dsi_Proyect
     /// </summary>
     public sealed partial class WeaponStore : Page
     {
+        int gold = 2500;
         public WeaponStore()
         {
             this.InitializeComponent();
@@ -90,6 +91,12 @@ namespace Dsi_Proyect
                         break;
                 }
             }
+        }
+
+        private void WeaponView_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            gold -= (e.ClickedItem as Armas).Coste;
+            myMoney.Text= gold.ToString();
         }
     }
 }

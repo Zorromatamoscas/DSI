@@ -57,10 +57,13 @@
       <RootProperty Name="Foreground" />
       <RootProperty Name="Height" />
       <RootProperty Name="Name" />
+      <RootProperty Name="AllowDrop" />
       <RootProperty Name="Width" />
       <RootProperty Name="BorderBrush" />
       <RootProperty Name="BorderThickness" />
       <RootEvent Name="Click" />
+      <RootEvent Name="DragOver" />
+      <RootEvent Name="Drop" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Text" />
@@ -80,6 +83,8 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Orientation" />
       <RootProperty Name="Width" />
+      <RootProperty Name="XYFocusKeyboardNavigation" />
+      <RootProperty Name="TabFocusNavigation" />
       <RootProperty Name="RenderTransform" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
@@ -165,13 +170,17 @@
       <RootProperty Name="IsItemClickEnabled" />
       <RootProperty Name="CanDragItems" />
       <RootProperty Name="IsFocusEngagementEnabled" />
+      <RootProperty Name="XYFocusKeyboardNavigation" />
+      <RootProperty Name="TabFocusNavigation" />
       <RootProperty Name="Height" />
+      <RootEvent Name="SelectionChanged" />
       <RootEvent Name="ItemClick" />
+      <RootEvent Name="DragItemsStarting" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
-      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Children" />
+      <RootProperty Name="VerticalAlignment" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.TranslateTransform">
       <RootProperty Name="Y" />
