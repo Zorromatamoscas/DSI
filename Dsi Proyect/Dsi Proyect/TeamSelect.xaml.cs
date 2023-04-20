@@ -97,5 +97,19 @@ namespace Dsi_Proyect
         {
             ListView.ItemsSource = ListaPj.personajesArco;
         }
+
+        private void backButton_Click(object sender, RoutedEventArgs e)
+        {
+            App.TryGoBack();
+        }
+
+        //Boton de ready
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if(allySpace1Used && allySpace2Used)
+            {
+                this.Frame.Navigate(typeof(MenuDeCombate));
+            }
+        }
     }
 }

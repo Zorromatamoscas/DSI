@@ -46,11 +46,11 @@
         <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Center">
             <Button x:ConnectionId='2' Content="Play" Name="Play"                   >
             </Button>
-            <Button Content="Store">
+            <Button x:ConnectionId='3' Content="Store"                     >
             </Button>
-            <Button Content="Options">
+            <Button x:ConnectionId='4' Content="Options"                       >
             </Button>
-            <Button Content="Exit">
+            <Button x:ConnectionId='5' Content="Exit"                       >
             </Button>
         </StackPanel>
 

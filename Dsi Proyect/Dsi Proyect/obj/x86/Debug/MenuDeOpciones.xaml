@@ -15,6 +15,15 @@
             <Setter Property="Foreground" Value="Aqua"></Setter>
             
         </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="TextAlignment" Value="Center" ></Setter>
+            <Setter Property="Width" Value="400"></Setter>
+            <Setter Property="Background" Value="AliceBlue"></Setter>
+            <Setter Property="Foreground" Value="Black"></Setter>
+            <Setter Property="Margin" Value="0 0 40 0"></Setter>
+            <Setter Property="IsHitTestVisible" Value="False"></Setter>
+            <Setter Property="IsTabStop" Value="False"></Setter>
+        </Style>
         <Style TargetType="Button">
             <Setter Property="Width" Value="400"></Setter>
             <Setter Property="Background" Value="AliceBlue"></Setter>
@@ -34,22 +43,22 @@
         <StackPanel>
             <TextBlock Text="OPCIONES"></TextBlock>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="30">
-                <Button Content="SONIDO"></Button>
-                <Slider Maximum="100" Width="198"></Slider>
+                    <TextBox Text="SONIDO"></TextBox>
+                <Slider Maximum="100" Width="198" Value="50"></Slider>
             </StackPanel>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="30">
-                <Button Content="EFECTOS DE SONIDO"></Button>
-                <Slider Maximum="100" Width="198"></Slider>
+                <TextBox Text="EFECTOS DE SONIDO"></TextBox>
+                    <Slider x:ConnectionId='3' Maximum="100" Width="198" Value="50"                                   ></Slider>
             </StackPanel>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="30">
-                <Button Content="MUSICA"></Button>
-                <Slider Maximum="100" Width="198"></Slider>
+                <TextBox Text="MUSICA"></TextBox>
+                    <Slider Maximum="100" Width="198" Value="50"></Slider>
             </StackPanel>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="30">
-                <Button Content="TABLERO"></Button>
-                <CheckBox Margin="40 0" IsChecked="False"></CheckBox>
+                <TextBox Text="TABLERO"></TextBox>
+                <CheckBox Margin="40 0" IsChecked="False" ></CheckBox>
             </StackPanel>
-            <Button Margin="100" Content="VOLVER" HorizontalAlignment="Center" Height="100"></Button>
+            <Button x:ConnectionId='2' Margin="100" Content="VOLVER"                      HorizontalAlignment="Center" Height="100"></Button>
             
         </StackPanel>
         

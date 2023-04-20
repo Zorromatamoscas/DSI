@@ -31,5 +31,20 @@ namespace Dsi_Proyect
         {
             this.Frame.Navigate(typeof(TeamSelect));
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(WeaponStore));
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MenuDeOpciones));
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Exit();
+        }
     }
 }

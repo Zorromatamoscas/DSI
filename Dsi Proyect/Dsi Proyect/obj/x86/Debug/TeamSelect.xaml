@@ -54,11 +54,13 @@
         </DataTemplate>-->
     </Page.Resources>
     <Grid>
+        
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Viewbox Stretch="Fill" Grid.ColumnSpan="2">
+            
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition/>
@@ -69,6 +71,12 @@
             <RowDefinition Height="3*"/>
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>-->
+                <Button x:ConnectionId='10' x:Name="backButton"
+                Margin="10"
+                Background="Gray"
+                Style="{StaticResource NavigationBackButtonNormalStyle}"
+                VerticalAlignment="Top"
+                                        ></Button>
                 <Image Source="/Assets/tienda tatoo.png" Grid.ColumnSpan="2" Margin="213,0,0,0" />
 
                 <Viewbox StretchDirection="Both" Stretch="Fill">
@@ -76,9 +84,9 @@
                         <Image Source = "/Assets/Cuaderno DSI.PNG" Margin="70,111,126,112"/>
 
                         <Image Source="/Assets/cartel.png"  Width="194" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="70,-50,0,0" Height="140"/>
-                        <Canvas x:ConnectionId='14' x:Name="myCanvas" VerticalAlignment="Bottom" Margin="50,0,0,70">
+                        <Canvas x:ConnectionId='16' x:Name="myCanvas" VerticalAlignment="Bottom" Margin="50,0,0,70">
                             <Image Source="/Assets/Cuaderno DSI stats.PNG" Width="250"/>
-                            <Image x:ConnectionId='18' x:Name="pjImage" Width="50"  Margin="0,10,0,0" VerticalAlignment="Bottom" HorizontalAlignment="Left" Height="44"/>
+                            <Image x:ConnectionId='20' x:Name="pjImage" Width="50"  Margin="0,10,0,0" VerticalAlignment="Bottom" HorizontalAlignment="Left" Height="44"/>
                             <StackPanel Margin="40,0,0,0" Orientation="Horizontal" >
                                 <TextBlock FontSize="12" Text="HP" Margin="10,0"/>
                                 <TextBlock FontSize="12" Text="ATK" Margin="10,0"/>
@@ -86,12 +94,12 @@
                                 <TextBlock FontSize="12" Text="Lv" Margin="10,0"/>
                                 <TextBlock FontSize="12" Text="Type" Margin="10,0"/>
                             </StackPanel>
-                            <StackPanel x:ConnectionId='19' x:Name="statStack" Margin="40,35,0,0" Orientation="Horizontal" >
-                                <TextBlock x:ConnectionId='20' x:Name = "HP" Margin="10,0"/>
-                                <TextBlock x:ConnectionId='21' x:Name = "ATK" Margin="10,0"/>
-                                <TextBlock x:ConnectionId='22' x:Name="DEF" Margin="10,0"/>
-                                <TextBlock x:ConnectionId='23' x:Name="Lv" Margin="10,0"/>
-                                <TextBlock x:ConnectionId='24' x:Name="Type" Margin="10,0"/>
+                            <StackPanel x:ConnectionId='21' x:Name="statStack" Margin="40,35,0,0" Orientation="Horizontal" >
+                                <TextBlock x:ConnectionId='22' x:Name = "HP" Margin="10,0"/>
+                                <TextBlock x:ConnectionId='23' x:Name = "ATK" Margin="10,0"/>
+                                <TextBlock x:ConnectionId='24' x:Name="DEF" Margin="10,0"/>
+                                <TextBlock x:ConnectionId='25' x:Name="Lv" Margin="10,0"/>
+                                <TextBlock x:ConnectionId='26' x:Name="Type" Margin="10,0"/>
                             </StackPanel>
                         </Canvas>
 
@@ -102,9 +110,9 @@
                             <StackPanel.RenderTransform>
                                 <TranslateTransform Y="70" X="-25"/>
                             </StackPanel.RenderTransform>
-                            <Button x:ConnectionId='15' Style="{StaticResource Tabs}" Content="Sword"                    />
-                            <Button x:ConnectionId='16' Style="{StaticResource Tabs}" Content="Shield"                     />
-                            <Button x:ConnectionId='17' Style="{StaticResource Tabs}" Content="Bow"                  />
+                            <Button x:ConnectionId='17' Style="{StaticResource Tabs}" Content="Sword"                    />
+                            <Button x:ConnectionId='18' Style="{StaticResource Tabs}" Content="Shield"                     />
+                            <Button x:ConnectionId='19' Style="{StaticResource Tabs}" Content="Bow"                  />
                         </StackPanel>
                     </Grid>
                 </Viewbox >
@@ -113,14 +121,14 @@
                         <Image Source="/Assets/cuadernoMapa.jpg" Width="300" Margin="30,30,30,30"/>
                         <Image Source="/Assets/mapa.jpg"  Width="250" Margin="20,0,0,0"/>
                         <Image Source="/Assets/Cuaderno DSI boton.png"  Width="150" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,0,0" />
-                        <Button x:ConnectionId='10' HorizontalAlignment="Center" Height="50" Width="50" Margin="-90,180,0,0"                     Background="Transparent">
-                            <Image x:ConnectionId='13' x:Name="allySpace1"/>
+                        <Button x:ConnectionId='11' HorizontalAlignment="Center" Height="50" Width="50" Margin="-90,180,0,0"                     Background="Transparent">
+                            <Image x:ConnectionId='15' x:Name="allySpace1"/>
                         </Button>
-                        <Button x:ConnectionId='11' HorizontalAlignment="Center" Height="50" Width="50"  Margin="150,180,0,0"                     Background="Transparent">
-                            <Image x:ConnectionId='12' x:Name="allySpace2" />
+                        <Button x:ConnectionId='12' HorizontalAlignment="Center" Height="50" Width="50"  Margin="150,180,0,0"                     Background="Transparent">
+                            <Image x:ConnectionId='14' x:Name="allySpace2" />
                         </Button>
 
-                        <Button Content="Ready" VerticalAlignment="Bottom" HorizontalAlignment="Right" Background="Transparent" Foreground="Black" BorderBrush="Black" BorderThickness="1" Margin="25,5" FontSize="30"/>
+                        <Button x:ConnectionId='13' Content="Ready" VerticalAlignment="Bottom" HorizontalAlignment="Right" Background="Transparent" Foreground="Black" BorderBrush="Black" BorderThickness="1" Margin="25,5" FontSize="30"                     />
                     </Grid>
                 </Viewbox>
             </Grid>

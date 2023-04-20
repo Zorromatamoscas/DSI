@@ -26,5 +26,17 @@ namespace Dsi_Proyect
         {
             this.InitializeComponent();
         }
+
+        //VOLVER
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            App.TryGoBack();
+        }
+
+        //STORE
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(WeaponStore));
+        }
     }
 }

@@ -25,6 +25,11 @@
             <Setter Property="Height" Value="31"></Setter>
         </Style>
 
+        <Style TargetType="TextBox">
+            <Setter Property="IsHitTestVisible" Value="False"></Setter>
+            <Setter Property="IsTabStop" Value="False"></Setter>
+        </Style>
+
         
     </Page.Resources>
     <Viewbox>
@@ -103,10 +108,10 @@
             <Rectangle Width="200" Height="400" Fill="#8b51f5" Stroke="#130b34"></Rectangle>
             <StackPanel Margin=" 100">
                 <Button Content="Ataca!" Style="{StaticResource PurpleStyle}"></Button>
-                <Button Content="Objects" Style="{StaticResource PurpleStyle}"></Button>
+                <Button Content="Object" Style="{StaticResource PurpleStyle}"></Button>
                 <Button Content="Pass" Style="{StaticResource PurpleStyle}"></Button>
-                <Button Content="Store" Style="{StaticResource PurpleStyle}"></Button>
-                <Button Content="Return" Style="{StaticResource PurpleStyle}"></Button>
+                <Button Content="Store" Style="{StaticResource PurpleStyle}" Click="Button_Click_1"></Button>
+                <Button Content="Return" Style="{StaticResource PurpleStyle}" Click="Button_Click"></Button>
             </StackPanel>
             
             <StackPanel Grid.Column="2" Margin="50">
