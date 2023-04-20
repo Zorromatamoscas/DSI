@@ -13,10 +13,12 @@
             <Setter Property="FontSize" Value="80"></Setter>
             <Setter Property="HorizontalAlignment" Value="Center"></Setter>
             <Setter Property="Foreground" Value="Aqua"></Setter>
+            
         </Style>
         <Style TargetType="Button">
             <Setter Property="Width" Value="400"></Setter>
             <Setter Property="Background" Value="AliceBlue"></Setter>
+            <Setter Property="Foreground" Value="Black"></Setter>
         </Style>
         
     </Page.Resources>
