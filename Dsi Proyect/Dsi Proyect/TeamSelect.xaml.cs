@@ -29,6 +29,16 @@ namespace Dsi_Proyect
             this.InitializeComponent();
         }
 
+        private void OnKeyUp(object sender, KeyRoutedEventArgs e)
+        {
+            if (e.Key == Windows.System.VirtualKey.Escape)
+            {
+                App.TryGoBack();
+                e.Handled = true;
+            }
+        }
+
+
         private void ListView_ItemClick(object sender, ItemClickEventArgs e)
         {
             Personajes pj = e.ClickedItem as Personajes;

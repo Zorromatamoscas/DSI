@@ -49,7 +49,6 @@ C:\Users\pedro\source\repos\Dsi Proyect\Dsi Proyect\obj\x86\Debug\MultipleQualif
 C:\Users\pedro\source\repos\Dsi Proyect\Dsi Proyect\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\pedro\source\repos\Dsi Proyect\Dsi Proyect\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424743200000000.json
 C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\App.xbf
-C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\MainPage.xbf
 C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\MenuDeOpciones.xbf
 C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\MenuPrincipal.xbf
 C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\TeamSelect.xbf
@@ -66,8 +65,6 @@ C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\Micros
 C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\Dsi Proyect.csproj.AssemblyReference.cache
 C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\App.g.i.cs
 C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\App.g.cs
-C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\MainPage.g.i.cs
-C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\MainPage.g.cs
 C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\MenuDeOpciones.g.i.cs
 C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\MenuDeOpciones.g.cs
 C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\MenuPrincipal.g.i.cs
@@ -76,12 +73,10 @@ C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\TeamSe
 C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\TeamSelect.g.cs
 C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\XamlTypeInfo.g.cs
 C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\App.xaml
-C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\MainPage.xaml
 C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\MenuDeOpciones.xaml
 C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\MenuPrincipal.xaml
 C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\TeamSelect.xaml
 C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\App.xbf
-C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\MainPage.xbf
 C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\MenuDeOpciones.xbf
 C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\MenuPrincipal.xbf
 C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\TeamSelect.xbf
@@ -273,3 +268,6 @@ C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\MenuDe
 C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\MenuDeCombate.g.cs
 C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\MenuDeCombate.xaml
 C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\MenuDeCombate.xbf
+C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\Dictionary1.xbf
+C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\Dictionary1.xaml
+C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\Dictionary1.xbf

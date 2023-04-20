@@ -36,7 +36,16 @@ namespace Dsi_Proyect
         //STORE
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(WeaponStore));
+            this.Frame.Navigate(typeof(InitialShop));
+        }
+
+        private void Grid_KeyUp(object sender, KeyRoutedEventArgs e)
+        {
+            if(e.Key == Windows.System.VirtualKey.Escape)
+            {
+                App.TryGoBack();
+                e.Handled = true;
+            }
         }
     }
 }

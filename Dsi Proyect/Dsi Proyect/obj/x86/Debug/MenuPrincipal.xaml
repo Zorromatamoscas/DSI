@@ -17,7 +17,11 @@
             <Setter Property="Margin" Value="80"></Setter>
             <Setter Property="HorizontalAlignment" Value="Stretch"></Setter>
             <Setter Property="FontSize" Value="30"></Setter>
+            <Setter Property="IsTabStop" Value="True"></Setter>
+            <Setter Property="FocusVisualPrimaryBrush" Value="DarkMagenta"></Setter>
+            <Setter Property="FocusVisualPrimaryThickness" Value="4"></Setter>
         </Style>
+
 
         <Style TargetType="TextBlock">
             <Setter Property="FontSize" Value="70"></Setter>
@@ -29,7 +33,7 @@
     </Page.Resources>
 
     <Viewbox>
-    <Grid Width="1639" Height="915">
+    <Grid x:ConnectionId='2' Width="1639" Height="915"                   >
         <Grid.ColumnDefinitions>
             <ColumnDefinition>
             </ColumnDefinition>
@@ -44,13 +48,13 @@
         </Grid.Background>
 
         <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Center">
-            <Button x:ConnectionId='2' Content="Play" Name="Play"                   >
+            <Button x:ConnectionId='3' Content="Play" Name="Play"                    >
             </Button>
-            <Button x:ConnectionId='3' Content="Store"                     >
+            <Button x:ConnectionId='4' Content="Store"                     >
             </Button>
-            <Button x:ConnectionId='4' Content="Options"                       >
+            <Button x:ConnectionId='5' Content="Options"                       >
             </Button>
-            <Button x:ConnectionId='5' Content="Exit"                       >
+            <Button x:ConnectionId='6' Content="Exit"                       >
             </Button>
         </StackPanel>
 

@@ -32,7 +32,7 @@
         
     </Page.Resources>
     <Viewbox>
-    <Grid Width="1378">
+    <Grid x:ConnectionId='2' Width="1378"                   >
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="#FF0E0F2D" Offset="0"/>
@@ -48,7 +48,7 @@
             </StackPanel>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="30">
                 <TextBox Text="EFECTOS DE SONIDO"></TextBox>
-                    <Slider x:ConnectionId='3' Maximum="100" Width="198" Value="50"                                   ></Slider>
+                    <Slider x:ConnectionId='4' Maximum="100" Width="198" Value="50"                                   ></Slider>
             </StackPanel>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="30">
                 <TextBox Text="MUSICA"></TextBox>
@@ -58,7 +58,7 @@
                 <TextBox Text="TABLERO"></TextBox>
                 <CheckBox Margin="40 0" IsChecked="False" ></CheckBox>
             </StackPanel>
-            <Button x:ConnectionId='2' Margin="100" Content="VOLVER"                      HorizontalAlignment="Center" Height="100"></Button>
+            <Button x:ConnectionId='3' Margin="100" Content="VOLVER"                      HorizontalAlignment="Center" Height="100"></Button>
             
         </StackPanel>
         

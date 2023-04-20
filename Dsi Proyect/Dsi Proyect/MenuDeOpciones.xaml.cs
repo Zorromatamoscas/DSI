@@ -36,5 +36,13 @@ namespace Dsi_Proyect
         {
             
         }
+
+        private void Grid_KeyUp(object sender, KeyRoutedEventArgs e)
+        {
+            if(e.Key == Windows.System.VirtualKey.Escape)
+            {
+                App.TryGoBack();
+            }
+        }
     }
 }

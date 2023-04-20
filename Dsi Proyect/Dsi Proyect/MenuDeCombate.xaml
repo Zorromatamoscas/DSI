@@ -33,7 +33,7 @@
         
     </Page.Resources>
     <Viewbox>
-    <Grid>
+    <Grid KeyUp="Grid_KeyUp">
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>

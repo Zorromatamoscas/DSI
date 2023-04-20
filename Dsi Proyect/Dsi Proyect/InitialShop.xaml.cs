@@ -26,5 +26,25 @@ namespace Dsi_Proyect
         {
             this.InitializeComponent();
         }
+
+        private void backButton_Click(object sender, RoutedEventArgs e)
+        {
+            App.TryGoBack();
+        }
+
+        private void Grid_KeyUp(object sender, KeyRoutedEventArgs e)
+        {
+            if(e.Key == Windows.System.VirtualKey.Escape)
+            {
+                App.TryGoBack();
+                e.Handled = true;
+            }
+        }
+
+        //WEAPON STORE
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(WeaponStore));
+        }
     }
 }

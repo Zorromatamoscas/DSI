@@ -17,7 +17,11 @@
             <Setter Property="Margin" Value="80"></Setter>
             <Setter Property="HorizontalAlignment" Value="Stretch"></Setter>
             <Setter Property="FontSize" Value="30"></Setter>
+            <Setter Property="IsTabStop" Value="True"></Setter>
+            <Setter Property="FocusVisualPrimaryBrush" Value="DarkMagenta"></Setter>
+            <Setter Property="FocusVisualPrimaryThickness" Value="4"></Setter>
         </Style>
+
 
         <Style TargetType="TextBlock">
             <Setter Property="FontSize" Value="70"></Setter>
@@ -29,7 +33,7 @@
     </Page.Resources>
 
     <Viewbox>
-    <Grid Width="1639" Height="915">
+    <Grid Width="1639" Height="915" KeyUp="Grid_KeyUp">
         <Grid.ColumnDefinitions>
             <ColumnDefinition>
             </ColumnDefinition>
@@ -44,7 +48,7 @@
         </Grid.Background>
 
         <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Center">
-            <Button Content="Play" Name="Play" Click="Play_Click">
+            <Button Content="Play" Name="Play" Click="Play_Click" >
             </Button>
             <Button Content="Store" Click="Button_Click">
             </Button>

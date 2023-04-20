@@ -53,7 +53,7 @@
             </StackPanel>
         </DataTemplate>-->
     </Page.Resources>
-    <Grid>
+    <Grid KeyUp="Grid_KeyUp">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
@@ -63,7 +63,8 @@
                 Background="Gray"
                 Style="{StaticResource NavigationBackButtonNormalStyle}"
                 VerticalAlignment="Top"
-                Click="backButton_Click"></Button>
+                Click="backButton_Click"
+                 FocusVisualPrimaryBrush="Red" FocusVisualPrimaryThickness="3"></Button>
         <Viewbox Stretch="Fill" Grid.ColumnSpan="2">
             <Grid>
                 <Grid.ColumnDefinitions>

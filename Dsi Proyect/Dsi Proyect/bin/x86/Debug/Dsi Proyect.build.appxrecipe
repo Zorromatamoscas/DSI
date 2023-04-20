@@ -145,11 +145,11 @@
     <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\Dictionary1.xbf">
+      <PackagePath>Dictionary1.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\InitialShop.xbf">
       <PackagePath>InitialShop.xbf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\MainPage.xbf">
-      <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\MenuDeCombate.xbf">
       <PackagePath>MenuDeCombate.xbf</PackagePath>

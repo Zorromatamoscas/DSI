@@ -53,17 +53,18 @@
             </StackPanel>
         </DataTemplate>-->
     </Page.Resources>
-    <Grid>
+    <Grid x:ConnectionId='9'                   >
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Button x:ConnectionId='9' x:Name="backButton"
+        <Button x:ConnectionId='10' x:Name="backButton"
                 Margin="10"
                 Background="Gray"
                 Style="{StaticResource NavigationBackButtonNormalStyle}"
                 VerticalAlignment="Top"
-                                        ></Button>
+                                        
+                 FocusVisualPrimaryBrush="Red" FocusVisualPrimaryThickness="3"></Button>
         <Viewbox Stretch="Fill" Grid.ColumnSpan="2">
             <Grid>
                 <Grid.ColumnDefinitions>
@@ -97,10 +98,10 @@
                             <StackPanel.RenderTransform>
                                 <TranslateTransform Y="0" X="-60"/>
                             </StackPanel.RenderTransform>
-                            <Button x:ConnectionId='17' Style="{StaticResource Tabs}" Content="Swords"                    />
-                            <Button x:ConnectionId='18' Style="{StaticResource Tabs}" Content="Shields"                     />
-                            <Button x:ConnectionId='19' Style="{StaticResource Tabs}" Content="Bows"                  />
-                            <Button x:ConnectionId='20' Style="{StaticResource Tabs}" Content="Specials"                       />
+                            <Button x:ConnectionId='18' Style="{StaticResource Tabs}" Content="Swords"                    />
+                            <Button x:ConnectionId='19' Style="{StaticResource Tabs}" Content="Shields"                     />
+                            <Button x:ConnectionId='20' Style="{StaticResource Tabs}" Content="Bows"                  />
+                            <Button x:ConnectionId='21' Style="{StaticResource Tabs}" Content="Specials"                       />
                         </StackPanel>
 
                         <StackPanel HorizontalAlignment="Left" Orientation="Horizontal" Width="300" Margin="60,0,0,0" Grid.Row="1" >
@@ -114,7 +115,7 @@
                 </Viewbox>
                 <Viewbox Stretch="Fill" Grid.Column="1" Margin="50,0,50,50">
                     <Grid >
-                        <Image x:ConnectionId='11' x:Name="WeaponImage" Source="/Assets/steelSword.png" Width="200" VerticalAlignment="Top" Margin="0,70"/>
+                        <Image x:ConnectionId='12' x:Name="WeaponImage" Source="/Assets/steelSword.png" Width="200" VerticalAlignment="Top" Margin="0,70"/>
                         <Image Source="/Assets/Cuaderno DSI stats.PNG" Width="250" VerticalAlignment="Bottom"/>
                         <StackPanel Margin="35,0,0,45" Orientation="Horizontal" VerticalAlignment="Bottom" >
                             <TextBlock FontSize="12" Text="ATK" Margin="10,0"/>
@@ -122,18 +123,18 @@
                             <TextBlock FontSize="12" Text="Cost" Margin="10,0"/>
                             <TextBlock FontSize="12" Text="Good Vs" Margin="10,0"/>
                         </StackPanel>
-                        <StackPanel x:ConnectionId='12' x:Name="statStack" Margin="35,0,0,20" Orientation="Horizontal" VerticalAlignment="Bottom" >
-                            <TextBlock x:ConnectionId='13' x:Name = "ATK" Margin="15,0"/>
-                            <TextBlock x:ConnectionId='14' x:Name="DEF" Margin="15,0"/>
-                            <TextBlock x:ConnectionId='15' x:Name="Cost" Margin="15,0"/>
-                            <Image x:ConnectionId='16' x:Name="GoodVs" Margin="15,0" Width="20"/>
+                        <StackPanel x:ConnectionId='13' x:Name="statStack" Margin="35,0,0,20" Orientation="Horizontal" VerticalAlignment="Bottom" >
+                            <TextBlock x:ConnectionId='14' x:Name = "ATK" Margin="15,0"/>
+                            <TextBlock x:ConnectionId='15' x:Name="DEF" Margin="15,0"/>
+                            <TextBlock x:ConnectionId='16' x:Name="Cost" Margin="15,0"/>
+                            <Image x:ConnectionId='17' x:Name="GoodVs" Margin="15,0" Width="20"/>
                         </StackPanel>
                     </Grid>
                 </Viewbox>
 
             </Grid>
         </Viewbox>
-        <ListView x:ConnectionId='10' x:Name="WeaponView"
+        <ListView x:ConnectionId='11' x:Name="WeaponView"
                   Width="250"
                   Margin="50,80,0,0"
                                                                

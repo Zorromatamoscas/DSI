@@ -123,9 +123,6 @@
     <Compile Include="InitialShop.xaml.cs">
       <DependentUpon>InitialShop.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MainPage.xaml.cs">
-      <DependentUpon>MainPage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="MenuDeCombate.xaml.cs">
       <DependentUpon>MenuDeCombate.xaml</DependentUpon>
     </Compile>
@@ -189,11 +186,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="InitialShop.xaml">
-      <Generator>MSBuild:Compile</Generator>
+    <Page Include="Dictionary1.xaml">
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MainPage.xaml">
+    <Page Include="InitialShop.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

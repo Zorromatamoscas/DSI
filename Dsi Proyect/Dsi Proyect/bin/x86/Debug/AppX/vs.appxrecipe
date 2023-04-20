@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-04-20T13:29:41.148</Modified>
+      <Modified>2023-04-20T14:36:32.234</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\Dsi Proyect.exe">
       <PackagePath>entrypoint\Dsi Proyect.exe</PackagePath>
-      <Modified>2023-04-20T13:29:39.399</Modified>
+      <Modified>2023-04-20T14:36:31.115</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -186,39 +186,39 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\Dsi Proyect.xr.xml">
       <PackagePath>Dsi Proyect.xr.xml</PackagePath>
-      <Modified>2023-04-20T13:29:39.134</Modified>
+      <Modified>2023-04-20T14:34:50.006</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-04-20T13:29:39.198</Modified>
+      <Modified>2023-04-20T14:36:30.921</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\Dictionary1.xbf">
+      <PackagePath>Dictionary1.xbf</PackagePath>
+      <Modified>2023-04-20T14:36:30.921</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\InitialShop.xbf">
       <PackagePath>InitialShop.xbf</PackagePath>
-      <Modified>2023-04-20T13:29:39.198</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\MainPage.xbf">
-      <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2023-04-20T13:29:39.199</Modified>
+      <Modified>2023-04-20T14:36:30.921</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\MenuDeCombate.xbf">
       <PackagePath>MenuDeCombate.xbf</PackagePath>
-      <Modified>2023-04-20T13:29:39.181</Modified>
+      <Modified>2023-04-20T14:36:30.898</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\MenuDeOpciones.xbf">
       <PackagePath>MenuDeOpciones.xbf</PackagePath>
-      <Modified>2023-04-20T13:29:39.199</Modified>
+      <Modified>2023-04-20T14:36:30.922</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\MenuPrincipal.xbf">
       <PackagePath>MenuPrincipal.xbf</PackagePath>
-      <Modified>2023-04-20T13:29:39.199</Modified>
+      <Modified>2023-04-20T14:36:30.922</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\TeamSelect.xbf">
       <PackagePath>TeamSelect.xbf</PackagePath>
-      <Modified>2023-04-20T13:29:39.193</Modified>
+      <Modified>2023-04-20T14:36:30.914</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\WeaponStore.xbf">
       <PackagePath>WeaponStore.xbf</PackagePath>
-      <Modified>2023-04-20T13:29:39.200</Modified>
+      <Modified>2023-04-20T14:36:30.923</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -226,11 +226,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-04-20T13:13:50.340</Modified>
+      <Modified>2023-04-20T14:00:41.578</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\Core\Dsi Proyect.exe">
       <PackagePath>Dsi Proyect.exe</PackagePath>
-      <Modified>2023-04-20T13:29:41.124</Modified>
+      <Modified>2023-04-20T14:36:32.226</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

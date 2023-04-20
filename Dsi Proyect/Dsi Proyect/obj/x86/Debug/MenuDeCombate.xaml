@@ -33,7 +33,7 @@
         
     </Page.Resources>
     <Viewbox>
-    <Grid>
+    <Grid x:ConnectionId='2'                   >
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
@@ -110,8 +110,8 @@
                 <Button Content="Ataca!" Style="{StaticResource PurpleStyle}"></Button>
                 <Button Content="Object" Style="{StaticResource PurpleStyle}"></Button>
                 <Button Content="Pass" Style="{StaticResource PurpleStyle}"></Button>
-                <Button x:ConnectionId='2' Content="Store" Style="{StaticResource PurpleStyle}"                       ></Button>
-                <Button x:ConnectionId='3' Content="Return" Style="{StaticResource PurpleStyle}"                     ></Button>
+                <Button x:ConnectionId='3' Content="Store" Style="{StaticResource PurpleStyle}"                       ></Button>
+                <Button x:ConnectionId='4' Content="Return" Style="{StaticResource PurpleStyle}"                     ></Button>
             </StackPanel>
             
             <StackPanel Grid.Column="2" Margin="50">

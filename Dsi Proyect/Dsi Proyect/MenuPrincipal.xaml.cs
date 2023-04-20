@@ -34,7 +34,8 @@ namespace Dsi_Proyect
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(WeaponStore));
+            this.Frame.Navigate(typeof(InitialShop));
+            //this.Frame.Navigate(typeof(InitialShop));
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
@@ -45,6 +46,14 @@ namespace Dsi_Proyect
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             Application.Current.Exit();
+        }
+
+        private void Grid_KeyUp(object sender, KeyRoutedEventArgs e)
+        {
+            if(e.Key == Windows.System.VirtualKey.Escape)
+            {
+                Application.Current.Exit();
+            }
         }
     }
 }

@@ -71,5 +71,14 @@ namespace Dsi_Proyect
         {
             App.TryGoBack();
         }
+
+        private void Grid_KeyUp(object sender, KeyRoutedEventArgs e)
+        {
+            if(e.Key == Windows.System.VirtualKey.Escape)
+            {
+                App.TryGoBack();
+                e.Handled = true;
+            }
+        }
     }
 }
