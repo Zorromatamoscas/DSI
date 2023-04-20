@@ -27,39 +27,22 @@ namespace Dsi_Proyect
             this.InitializeComponent();
         }
 
-        private void WeaponView_ItemClick(object sender, ItemClickEventArgs e)
-        {
-            Armas w = e.ClickedItem as Armas;
-            ATK.Text = w.Ataque.ToString();
-            DEF.Text = w.Defensa.ToString();
-            Cost.Text = w.Coste.ToString();
-            WeaponImage.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(System.IO.Directory.GetCurrentDirectory() + "\\" + w.Source));
-            switch (w.BuenoContra)
-            {
-                case "Arco": GoodVs.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(System.IO.Directory.GetCurrentDirectory() + "\\Assets\\bowIcon.png"));
-                    break;
-                case "Espada": GoodVs.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(System.IO.Directory.GetCurrentDirectory() + "\\Assets\\swordIcon.png"));
-                    break;
-                case "Escudo": GoodVs.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(System.IO.Directory.GetCurrentDirectory() + "\\Assets\\shieldIcon.png"));
-                    break;
-                default:
-                    GoodVs.Source = null;
-                    break;
-            }
-        }
         private void Sword_Click(object sender, RoutedEventArgs e)
         {
             WeaponView.ItemsSource = ListaArmas.Swordweapons;
+            WeaponView.SelectedItem = null;
         }
 
         private void Shield_Click(object sender, RoutedEventArgs e)
         {
             WeaponView.ItemsSource = ListaArmas.Shields;
+            WeaponView.SelectedItem = null;
         }
 
         private void Bow_Click(object sender, RoutedEventArgs e)
         {
             WeaponView.ItemsSource = ListaArmas.Bows;
+            WeaponView.SelectedItem = null;
         }
 
         private void specials_Click(object sender, RoutedEventArgs e)
@@ -78,6 +61,34 @@ namespace Dsi_Proyect
             {
                 App.TryGoBack();
                 e.Handled = true;
+            }
+        }
+
+        private void WeaponView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            ListView lv = sender as ListView;
+            Armas w = lv.SelectedItem as Armas;
+            if (w != null)
+            {
+                ATK.Text = w.Ataque.ToString();
+                DEF.Text = w.Defensa.ToString();
+                Cost.Text = w.Coste.ToString();
+                WeaponImage.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(System.IO.Directory.GetCurrentDirectory() + "\\" + w.Source));
+                switch (w.BuenoContra)
+                {
+                    case "Arco":
+                        GoodVs.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(System.IO.Directory.GetCurrentDirectory() + "\\Assets\\bowIcon.png"));
+                        break;
+                    case "Espada":
+                        GoodVs.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(System.IO.Directory.GetCurrentDirectory() + "\\Assets\\swordIcon.png"));
+                        break;
+                    case "Escudo":
+                        GoodVs.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(System.IO.Directory.GetCurrentDirectory() + "\\Assets\\shieldIcon.png"));
+                        break;
+                    default:
+                        GoodVs.Source = null;
+                        break;
+                }
             }
         }
     }

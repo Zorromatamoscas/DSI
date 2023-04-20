@@ -17,7 +17,7 @@
             </Setter>
             <Setter Property="Background" Value="LightSkyBlue"/>
             <Setter Property="Width" Value="100"/>
-            <Setter Property="Margin" Value="0,33"/>
+            <Setter Property="Margin" Value="0,35"/>
             <Setter Property="Foreground" Value="Black"/>
         </Style>
         <DataTemplate x:Key="ListItemTemplate"
@@ -86,7 +86,7 @@
                         <Image Source = "/Assets/Cuaderno DSI.PNG" Margin="70,111,126,112"/>
 
                         <Image Source="/Assets/cartel.png"  Width="194" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="70,-50,0,0" Height="140"/>
-                        <Canvas x:ConnectionId='17' x:Name="myCanvas" VerticalAlignment="Bottom" Margin="50,0,0,70">
+                        <Canvas VerticalAlignment="Bottom" Margin="50,0,0,70">
                             <Image Source="/Assets/Cuaderno DSI stats.PNG" Width="250"/>
                             <Image x:ConnectionId='21' x:Name="pjImage" Width="50"  Margin="0,10,0,0" VerticalAlignment="Bottom" HorizontalAlignment="Left" Height="44"/>
                             <StackPanel Margin="40,0,0,0" Orientation="Horizontal" >
@@ -108,7 +108,7 @@
                         <TextBlock Text="Select Team" FontSize="25" Margin="100,40,0,0" HorizontalAlignment="Left" IsColorFontEnabled="True" Foreground="Black" Width="142"/>
 
 
-                        <StackPanel VerticalAlignment="Center" Width="275" >
+                        <StackPanel VerticalAlignment="Center" Width="275" XYFocusKeyboardNavigation="Enabled" TabFocusNavigation="Once" >
                             <StackPanel.RenderTransform>
                                 <TranslateTransform Y="70" X="-25"/>
                             </StackPanel.RenderTransform>
@@ -121,13 +121,15 @@
                 <Viewbox Grid.Column="1" Margin="30,30,30,30" StretchDirection="Both" Stretch="Fill">
                     <Grid>
                         <Image Source="/Assets/cuadernoMapa.jpg" Width="300" Margin="30,30,30,30"/>
+                        <Canvas x:ConnectionId='10' x:Name="myCanvas" Margin="50,100,0,0">
                         <Image Source="/Assets/mapa.jpg"  Width="250" Margin="20,0,0,0"/>
+                        </Canvas>
                         <Image Source="/Assets/Cuaderno DSI boton.png"  Width="150" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,0,0" />
-                        <Button x:ConnectionId='11' HorizontalAlignment="Center" Height="50" Width="50" Margin="-90,180,0,0"                     Background="Transparent">
-                            <Image x:ConnectionId='15' x:Name="allySpace1"/>
+                        <Button x:ConnectionId='11' x:Name="Ally_button_1"                                                   AllowDrop="True" HorizontalAlignment="Center" Height="50" Width="50" Margin="-90,180,0,0"                     Background="Transparent">
+                            <Image x:ConnectionId='14' x:Name="allySpace1"/>
                         </Button>
-                        <Button x:ConnectionId='12' HorizontalAlignment="Center" Height="50" Width="50"  Margin="150,180,0,0"                     Background="Transparent">
-                            <Image x:ConnectionId='14' x:Name="allySpace2" />
+                        <Button x:ConnectionId='12' x:Name="Ally_button_2"                                                   AllowDrop="True" HorizontalAlignment="Center" Height="50" Width="50"  Margin="150,180,0,0"                     Background="Transparent">
+                            <Image x:ConnectionId='13' x:Name="allySpace2" />
                         </Button>
 
                         <Button x:ConnectionId='13' Content="Ready" 
@@ -151,9 +153,13 @@
                                                                    
                   ItemTemplate="{StaticResource ListItemTemplate}" 
                   IsItemClickEnabled="True"
+                                                              
                                                 
                   CanDragItems="True"
-                  IsFocusEngagementEnabled="True"/>
+                                                                
+                  IsFocusEngagementEnabled="True"
+                  XYFocusKeyboardNavigation="Enabled"
+                  TabFocusNavigation="Once"/>
     </Grid>
 </Page>
 

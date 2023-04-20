@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.ApplicationModel.DataTransfer;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -36,49 +37,6 @@ namespace Dsi_Proyect
                 App.TryGoBack();
                 e.Handled = true;
             }
-        }
-
-
-        private void ListView_ItemClick(object sender, ItemClickEventArgs e)
-        {
-            Personajes pj = e.ClickedItem as Personajes;
-            ATK.Text = pj.Ataque.ToString();
-            DEF.Text = pj.Defensa.ToString();
-            HP.Text= pj.Vida.ToString();
-            Type.Text = pj.Tipo;
-            Lv.Text = pj.Lv.ToString();
-            pjImage.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(System.IO.Directory.GetCurrentDirectory() + "\\" + pj.Source));
-            ImageSource Mapicon = null;
-            switch (pj.Tipo)
-            {
-                case "Sword": 
-                    Mapicon = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(System.IO.Directory.GetCurrentDirectory() + "\\Assets\\swordIcon.png"));
-                    break;
-                case "Shield":
-                    Mapicon = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(System.IO.Directory.GetCurrentDirectory() + "\\Assets\\shieldIcon.png"));
-                    break;
-                case "Bow":
-                    Mapicon = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(System.IO.Directory.GetCurrentDirectory() + "\\Assets\\bowIcon.png"));
-                    break;
-
-                default: break;
-            }
-            if (!allySpace1Used)
-            {
-                allySpace1.Source = Mapicon;
-                allySpace1Used=true;
-            }
-            else if (!allySpace2Used)
-            {
-                allySpace2.Source = Mapicon;
-                allySpace2Used=true;
-            }
-            else
-            {
-                allySpace1.Source = Mapicon;
-                allySpace2Used = false;
-            }
-
         }
 
         private void Ally2_Click(object sender, RoutedEventArgs e)
@@ -119,6 +77,99 @@ namespace Dsi_Proyect
             if(allySpace1Used && allySpace2Used)
             {
                 this.Frame.Navigate(typeof(MenuDeCombate));
+            }
+        }
+        private void ListView_DragItemsStarting(object sender, DragItemsStartingEventArgs e)
+        {
+            Personajes Item = e.Items[0] as Personajes;
+            e.Data.SetText(Item.Tipo);
+            e.Data.RequestedOperation = DataPackageOperation.Copy;
+        }
+
+        private void myCanvas_DragOver(object sender, DragEventArgs e)
+        {
+            e.AcceptedOperation = DataPackageOperation.Copy;
+        }
+
+        private async void myCanvas_Drop(object sender, DragEventArgs e)
+        {
+            var tipo = await e.DataView.GetTextAsync();
+            var objeto = sender as Button;
+            ImageSource Mapicon = null;
+            switch (tipo)
+            {
+                case "Sword":
+                    Mapicon = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(System.IO.Directory.GetCurrentDirectory() + "\\Assets\\swordIcon.png"));
+                    break;
+                case "Shield":
+                    Mapicon = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(System.IO.Directory.GetCurrentDirectory() + "\\Assets\\shieldIcon.png"));
+                    break;
+                case "Bow":
+                    Mapicon = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(System.IO.Directory.GetCurrentDirectory() + "\\Assets\\bowIcon.png"));
+                    break;
+
+                default: break;
+            }
+            if(objeto == Ally_button_1)
+            {
+                allySpace1.Source= Mapicon;
+                allySpace1Used=true;
+            }
+            else if(objeto == Ally_button_2)
+            {
+                allySpace2.Source = Mapicon;
+                allySpace2Used=true;
+            }
+        }
+
+        private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+            Personajes pj = ListView.SelectedItem as Personajes;
+            if (pj != null)
+            {
+                ATK.Text = pj.Ataque.ToString();
+                DEF.Text = pj.Defensa.ToString();
+                HP.Text = pj.Vida.ToString();
+                Type.Text = pj.Tipo;
+                Lv.Text = pj.Lv.ToString();
+                pjImage.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(System.IO.Directory.GetCurrentDirectory() + "\\" + pj.Source));
+            }
+        }
+
+        private void ListView_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            Personajes pj = e.ClickedItem as Personajes;
+            pjImage.Source = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(System.IO.Directory.GetCurrentDirectory() + "\\" + pj.Source));
+            ImageSource Mapicon = null;
+            switch (pj.Tipo)
+            {
+                case "Sword":
+                    Mapicon = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(System.IO.Directory.GetCurrentDirectory() + "\\Assets\\swordIcon.png"));
+                    break;
+                case "Shield":
+                    Mapicon = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(System.IO.Directory.GetCurrentDirectory() + "\\Assets\\shieldIcon.png"));
+                    break;
+                case "Bow":
+                    Mapicon = new Windows.UI.Xaml.Media.Imaging.BitmapImage(new Uri(System.IO.Directory.GetCurrentDirectory() + "\\Assets\\bowIcon.png"));
+                    break;
+
+                default: break;
+            }
+            if (!allySpace1Used)
+            {
+                allySpace1.Source = Mapicon;
+                allySpace1Used = true;
+            }
+            else if (!allySpace2Used)
+            {
+                allySpace2.Source = Mapicon;
+                allySpace2Used = true;
+            }
+            else
+            {
+                allySpace1.Source = Mapicon;
+                allySpace2Used = false;
             }
         }
     }
