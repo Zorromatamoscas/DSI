@@ -108,8 +108,6 @@ C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\App.g.
 C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\App.g.cs
 C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\InitialShop.g.i.cs
 C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\InitialShop.g.cs
-C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\MainPage.g.i.cs
-C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\MainPage.g.cs
 C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\MenuDeOpciones.g.i.cs
 C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\MenuDeOpciones.g.cs
 C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\MenuPrincipal.g.i.cs
@@ -121,14 +119,12 @@ C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\Weapon
 C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\XamlTypeInfo.g.cs
 C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\App.xaml
 C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\InitialShop.xaml
-C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\MainPage.xaml
 C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\MenuDeOpciones.xaml
 C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\MenuPrincipal.xaml
 C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\TeamSelect.xaml
 C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\WeaponStore.xaml
 C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\App.xbf
 C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\InitialShop.xbf
-C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\MainPage.xbf
 C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\MenuDeOpciones.xbf
 C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\MenuPrincipal.xbf
 C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\TeamSelect.xbf
@@ -138,7 +134,6 @@ C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\Dsi Pr
 C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\Dsi Proyect.pdb
 C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\App.xbf
 C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\InitialShop.xbf
-C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\MainPage.xbf
 C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\MenuDeOpciones.xbf
 C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\MenuPrincipal.xbf
 C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\TeamSelect.xbf
@@ -269,3 +264,11 @@ C:\Users\mirgu\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\Dictio
 C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\Dictionary1.xbf
 C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\Dictionary1.xaml
 C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\Dictionary1.xbf
+C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\Dictionary1.xbf
+C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\Dictionary1.xaml
+C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\Dictionary1.xbf
+C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\ProtectiveShop.g.i.cs
+C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\ProtectiveShop.g.cs
+C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\ProtectiveShop.xaml
+C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\ProtectiveShop.xbf
+C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\ProtectiveShop.xbf

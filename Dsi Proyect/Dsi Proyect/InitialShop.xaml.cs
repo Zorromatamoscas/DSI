@@ -46,5 +46,10 @@ namespace Dsi_Proyect
         {
             this.Frame.Navigate(typeof(WeaponStore));
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ProtectiveShop));
+        }
     }
 }

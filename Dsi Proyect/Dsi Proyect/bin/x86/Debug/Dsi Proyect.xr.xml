@@ -12,8 +12,8 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Viewbox">
       <RootProperty Name="Stretch" />
       <RootProperty Name="Child" />
-      <RootProperty Name="StretchDirection" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="StretchDirection" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="ColumnDefinitions" />
@@ -57,8 +57,8 @@
       <RootProperty Name="Foreground" />
       <RootProperty Name="Height" />
       <RootProperty Name="Name" />
-      <RootProperty Name="AllowDrop" />
       <RootProperty Name="Width" />
+      <RootProperty Name="AllowDrop" />
       <RootProperty Name="BorderBrush" />
       <RootProperty Name="BorderThickness" />
       <RootEvent Name="Click" />
@@ -162,34 +162,35 @@
       <RootProperty Name="Angle" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
-      <RootProperty Name="Margin" />
       <RootProperty Name="Width" />
-      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Margin" />
       <RootProperty Name="ItemsSource" />
       <RootProperty Name="ItemTemplate" />
       <RootProperty Name="IsItemClickEnabled" />
       <RootProperty Name="CanDragItems" />
       <RootProperty Name="IsFocusEngagementEnabled" />
-      <RootProperty Name="XYFocusKeyboardNavigation" />
-      <RootProperty Name="TabFocusNavigation" />
       <RootProperty Name="Height" />
+      <RootProperty Name="XYFocusKeyboardNavigation" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="TabFocusNavigation" />
       <RootEvent Name="SelectionChanged" />
       <RootEvent Name="ItemClick" />
       <RootEvent Name="DragItemsStarting" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
-      <RootProperty Name="Margin" />
-      <RootProperty Name="Children" />
-      <RootProperty Name="VerticalAlignment" />
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.TranslateTransform">
       <RootProperty Name="Y" />
       <RootProperty Name="X" />
     </RootType>
-    <RootType FullName="Dsi_Proyect.TeamSelect" />
-    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
-      <RootProperty Name="Height" />
+    <RootType FullName="Dsi_Proyect.ProtectiveShop" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="VerticalAlignment" />
     </RootType>
+    <RootType FullName="Dsi_Proyect.TeamSelect" />
     <RootType FullName="Dsi_Proyect.WeaponStore" />
   </Roots.RootTypes>
 </Roots>

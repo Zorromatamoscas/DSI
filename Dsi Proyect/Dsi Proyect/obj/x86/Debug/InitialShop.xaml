@@ -36,11 +36,11 @@
                         FocusVisualPrimaryBrush="Aqua" FocusVisualPrimaryThickness="4"
                                             />
                 <Image Source="/Assets/Tattoo de seleccion.PNG" Width="200" Margin="0,0,30,0" HorizontalAlignment="Center"/>
-                <Button Content="Protective Tattoos" 
+                <Button x:ConnectionId='5' Content="Protective Tattoos" 
                         FontSize="40" Margin="0,0,0,0" 
                         VerticalAlignment="Center" 
                         Foreground="Black" Background="Transparent"
-                        FocusVisualPrimaryBrush="Aqua" FocusVisualPrimaryThickness="4"/>
+                        FocusVisualPrimaryBrush="Aqua" FocusVisualPrimaryThickness="4"                       />
                 <Image Source="/Assets/Tattoo de seleccion.PNG" Width="200" Margin="0,0,30,0" HorizontalAlignment="Center"/>
             </StackPanel>
             </Grid>

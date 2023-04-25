@@ -108,7 +108,7 @@
                             <StackPanel.RenderTransform>
                                 <TranslateTransform Y="140"/>
                             </StackPanel.RenderTransform>
-                            <Button Background="Pink" Content="Shop" Width="150" Foreground="Black"/>
+                            <Button Background="Pink" Content="Shop" Width="150" Foreground="Black" Click="Button_Click"/>
                             <Button  Background="Pink" Content="Inventory" Width="150" Foreground="Black"/>
                         </StackPanel>
                     </Grid>
@@ -144,7 +144,6 @@
           IsItemClickEnabled="True"
           CanDragItems="True"
           SelectionChanged="WeaponView_SelectionChanged"
-          ItemClick="WeaponView_ItemClick"
           IsFocusEngagementEnabled="False" Height="300"
           XYFocusKeyboardNavigation="Enabled"/>
     </Grid>

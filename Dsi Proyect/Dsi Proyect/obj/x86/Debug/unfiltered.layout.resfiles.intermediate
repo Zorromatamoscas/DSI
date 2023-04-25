@@ -1,5 +1,8 @@
 WinMetadata\Windows.winmd
 Assets\arenita.png
+Assets\armadura.png
+Assets\armadura2.png
+Assets\armadura5.png
 Assets\bobesponja.png
 Assets\bowIcon.png
 Assets\brokenBow.png
@@ -18,6 +21,11 @@ Assets\mapa.jpg
 Assets\patricio.png
 Assets\plancton.png
 Assets\pocion.png
+Assets\shield.png
+Assets\shield1.png
+Assets\shield2.png
+Assets\shield4.jpg
+Assets\shield5.png
 Assets\shieldIcon.png
 Assets\SplashScreen.scale-200.png
 Assets\Square150x150Logo.scale-200.png
@@ -28,6 +36,9 @@ Assets\steelSword.png
 Assets\StoreLogo.png
 Assets\swordIcon.png
 Assets\Tattoo de seleccion.PNG
+Assets\Tattoo3.png
+Assets\tattoo4.png
+Assets\tattoo7.png
 Assets\tienda tatoo.png
 Assets\titanShield.png
 Assets\Wide310x150Logo.scale-200.png
@@ -38,6 +49,7 @@ InitialShop.xbf
 MenuDeCombate.xbf
 MenuDeOpciones.xbf
 MenuPrincipal.xbf
+ProtectiveShop.xbf
 TeamSelect.xbf
 WeaponStore.xbf
 Properties\Default.rd.xml

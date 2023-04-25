@@ -93,10 +93,10 @@ namespace Dsi_Proyect
             }
         }
 
-        private void WeaponView_ItemClick(object sender, ItemClickEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            gold -= (e.ClickedItem as Armas).Coste;
-            myMoney.Text= gold.ToString();
+            gold -= (WeaponView.SelectedItem as Armas).Coste;
+            myMoney.Text = gold.ToString();
         }
     }
 }

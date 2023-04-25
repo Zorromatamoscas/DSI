@@ -98,17 +98,17 @@
                             <StackPanel.RenderTransform>
                                 <TranslateTransform Y="0" X="-60"/>
                             </StackPanel.RenderTransform>
-                            <Button x:ConnectionId='19' Style="{StaticResource Tabs}" Content="Swords"                    />
-                            <Button x:ConnectionId='20' Style="{StaticResource Tabs}" Content="Shields"                     />
-                            <Button x:ConnectionId='21' Style="{StaticResource Tabs}" Content="Bows"                  />
-                            <Button x:ConnectionId='22' Style="{StaticResource Tabs}" Content="Specials"                       />
+                            <Button x:ConnectionId='20' Style="{StaticResource Tabs}" Content="Swords"                    />
+                            <Button x:ConnectionId='21' Style="{StaticResource Tabs}" Content="Shields"                     />
+                            <Button x:ConnectionId='22' Style="{StaticResource Tabs}" Content="Bows"                  />
+                            <Button x:ConnectionId='23' Style="{StaticResource Tabs}" Content="Specials"                       />
                         </StackPanel>
 
                         <StackPanel HorizontalAlignment="Left" Orientation="Horizontal" Width="300" Margin="60,0,0,0" Grid.Row="1" XYFocusKeyboardNavigation="Enabled" TabFocusNavigation="Once" >
                             <StackPanel.RenderTransform>
                                 <TranslateTransform Y="140"/>
                             </StackPanel.RenderTransform>
-                            <Button Background="Pink" Content="Shop" Width="150" Foreground="Black"/>
+                            <Button x:ConnectionId='19' Background="Pink" Content="Shop" Width="150" Foreground="Black"                     />
                             <Button  Background="Pink" Content="Inventory" Width="150" Foreground="Black"/>
                         </StackPanel>
                     </Grid>
@@ -144,7 +144,6 @@
           IsItemClickEnabled="True"
           CanDragItems="True"
                                                         
-                                          
           IsFocusEngagementEnabled="False" Height="300"
           XYFocusKeyboardNavigation="Enabled"/>
     </Grid>
