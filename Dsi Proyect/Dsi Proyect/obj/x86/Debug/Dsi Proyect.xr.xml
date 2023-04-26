@@ -62,6 +62,8 @@
       <RootProperty Name="BorderBrush" />
       <RootProperty Name="BorderThickness" />
       <RootEvent Name="Click" />
+      <RootEvent Name="PointerEntered" />
+      <RootEvent Name="PointerExited" />
       <RootEvent Name="DragOver" />
       <RootEvent Name="Drop" />
     </RootType>
@@ -130,6 +132,12 @@
       <RootProperty Name="Height" />
       <RootProperty Name="Fill" />
       <RootProperty Name="Stroke" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ProgressBar">
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Value" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Dsi_Proyect.MenuDeCombate" />
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />

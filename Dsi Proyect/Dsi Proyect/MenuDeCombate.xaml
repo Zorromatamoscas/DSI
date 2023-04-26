@@ -107,9 +107,12 @@
             
             <Rectangle Width="200" Height="400" Fill="#8b51f5" Stroke="#130b34"></Rectangle>
             <StackPanel Margin=" 100">
-                <Button Content="Ataca!" Style="{StaticResource PurpleStyle}"></Button>
-                <Button Content="Object" Style="{StaticResource PurpleStyle}"></Button>
-                <Button Content="Pass" Style="{StaticResource PurpleStyle}"></Button>
+                <Button Content="Ataca!" Style="{StaticResource PurpleStyle}" PointerEntered="Button_PointerEntered" PointerExited="Button_PointerExited"
+                        Click="Button_Click_2"></Button>
+                <Button Content="Object" Style="{StaticResource PurpleStyle}" PointerEntered="Button_PointerEntered_2" PointerExited="Button_PointerExited_1"
+                        Click="Button_Click_3"></Button>
+                <Button Content="Pass" Style="{StaticResource PurpleStyle}" PointerEntered="Button_PointerEntered_1" PointerExited="Button_PointerExited_1"
+                        Click="Button_Click_3"></Button>
                 <Button Content="Store" Style="{StaticResource PurpleStyle}" Click="Button_Click_1"></Button>
                 <Button Content="Return" Style="{StaticResource PurpleStyle}" Click="Button_Click"></Button>
             </StackPanel>
@@ -118,7 +121,7 @@
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                     <TextBox Background="White" Text="HP" FontSize="15" Foreground="Black" 
                              TextAlignment="Center"/>
-                    <Rectangle Fill="Green" Width="200"></Rectangle>
+                    <ProgressBar x:Name="myHp2" Foreground="Green" Value="100" Width="200" Height="30"></ProgressBar>
                 </StackPanel>
                 <TextBox Margin="20" FontSize="25" FontWeight="Bold"  
                          FontStyle="Italic" 
@@ -132,7 +135,7 @@
                     <StackPanel>
                         <TextBox Background="White" Text="HP ENEMIGO" FontSize="15" Foreground="Black" 
                              TextAlignment="Center" Width="108"/>
-                        <Rectangle Fill="Red" Width="200" Height="30"></Rectangle>
+                        <ProgressBar x:Name="EnemyHp" Foreground="Red" Value="100" Width="200" Height="30"></ProgressBar>
                     </StackPanel>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Margin="10" HorizontalAlignment="Center">
@@ -140,7 +143,7 @@
                     <StackPanel>
                         <TextBox Background="White" Text="HP TUYO" FontSize="15" Foreground="Black" 
                              TextAlignment="Center" Width="100"/>
-                        <Rectangle Fill="Green" Width="200" Height="30"></Rectangle>
+                        <ProgressBar x:Name="myHp" Foreground="Green" Value="100" Width="200" Height="30"></ProgressBar>
                     </StackPanel>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal"  Margin="10" HorizontalAlignment="Center">

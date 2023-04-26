@@ -22,6 +22,8 @@ namespace Dsi_Proyect
     /// </summary>
     public sealed partial class MenuDeCombate : Page
     {
+        double enemyPrevValue = 100;
+        double myPrevValue = 100;
         public MenuDeCombate()
         {
             this.InitializeComponent();
@@ -46,6 +48,50 @@ namespace Dsi_Proyect
                 App.TryGoBack();
                 e.Handled = true;
             }
+        }
+
+        private void Button_PointerEntered(object sender, PointerRoutedEventArgs e)
+        {
+            enemyPrevValue = EnemyHp.Value;
+            myPrevValue = myHp.Value;
+            EnemyHp.Value -= 20;
+            myHp.Value -= 15;
+        }
+
+        private void Button_PointerExited(object sender, PointerRoutedEventArgs e)
+        {
+            EnemyHp.Value = enemyPrevValue;
+            myHp.Value = myPrevValue;
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            enemyPrevValue = EnemyHp.Value;
+            myPrevValue = myHp.Value;
+            myHp2.Value = myHp.Value;
+        }
+
+        private void Button_PointerEntered_1(object sender, PointerRoutedEventArgs e)
+        {
+            myPrevValue = myHp.Value;
+            myHp.Value -= 15;
+        }
+
+        private void Button_PointerExited_1(object sender, PointerRoutedEventArgs e)
+        {
+            myHp.Value = myPrevValue;
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            myPrevValue = myHp.Value;
+            myHp2.Value = myHp.Value;
+        }
+
+        private void Button_PointerEntered_2(object sender, PointerRoutedEventArgs e)
+        {
+            myPrevValue = myHp.Value;
+            myHp.Value +=20;
         }
     }
 }

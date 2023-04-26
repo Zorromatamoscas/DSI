@@ -10262,11 +10262,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pedro\\Documents\\GitHub\\DSI\\Dsi Proyect\\Dsi Proyect\\Dsi Proyect.csproj",
+      "projectUniqueName": "C:\\Users\\pedro\\OneDrive\\Documentos\\FP2\\DSI\\Dsi Proyect\\Dsi Proyect\\Dsi Proyect.csproj",
       "projectName": "Dsi Proyect",
-      "projectPath": "C:\\Users\\pedro\\Documents\\GitHub\\DSI\\Dsi Proyect\\Dsi Proyect\\Dsi Proyect.csproj",
+      "projectPath": "C:\\Users\\pedro\\OneDrive\\Documentos\\FP2\\DSI\\Dsi Proyect\\Dsi Proyect\\Dsi Proyect.csproj",
       "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pedro\\Documents\\GitHub\\DSI\\Dsi Proyect\\Dsi Proyect\\obj\\",
+      "outputPath": "C:\\Users\\pedro\\OneDrive\\Documentos\\FP2\\DSI\\Dsi Proyect\\Dsi Proyect\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

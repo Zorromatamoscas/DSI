@@ -272,3 +272,8 @@ C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\Protec
 C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\ProtectiveShop.xaml
 C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\ProtectiveShop.xbf
 C:\Users\pedro\Documents\GitHub\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\ProtectiveShop.xbf
+C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\bin\x86\Debug\ProtectiveShop.xbf
+C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\ProtectiveShop.g.i.cs
+C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\ProtectiveShop.g.cs
+C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\ProtectiveShop.xaml
+C:\Users\pedro\OneDrive\Documentos\FP2\DSI\Dsi Proyect\Dsi Proyect\obj\x86\Debug\ProtectiveShop.xbf

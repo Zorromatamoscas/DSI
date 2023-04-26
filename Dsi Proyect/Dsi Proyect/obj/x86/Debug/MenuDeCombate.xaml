@@ -107,18 +107,21 @@
             
             <Rectangle Width="200" Height="400" Fill="#8b51f5" Stroke="#130b34"></Rectangle>
             <StackPanel Margin=" 100">
-                <Button Content="Ataca!" Style="{StaticResource PurpleStyle}"></Button>
-                <Button Content="Object" Style="{StaticResource PurpleStyle}"></Button>
-                <Button Content="Pass" Style="{StaticResource PurpleStyle}"></Button>
-                <Button x:ConnectionId='3' Content="Store" Style="{StaticResource PurpleStyle}"                       ></Button>
-                <Button x:ConnectionId='4' Content="Return" Style="{StaticResource PurpleStyle}"                     ></Button>
+                <Button x:ConnectionId='6' Content="Ataca!" Style="{StaticResource PurpleStyle}"                                                                            
+                                              ></Button>
+                <Button x:ConnectionId='7' Content="Object" Style="{StaticResource PurpleStyle}"                                                                                
+                                              ></Button>
+                <Button x:ConnectionId='8' Content="Pass" Style="{StaticResource PurpleStyle}"                                                                                
+                                              ></Button>
+                <Button x:ConnectionId='9' Content="Store" Style="{StaticResource PurpleStyle}"                       ></Button>
+                <Button x:ConnectionId='10' Content="Return" Style="{StaticResource PurpleStyle}"                     ></Button>
             </StackPanel>
             
             <StackPanel Grid.Column="2" Margin="50">
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                     <TextBox Background="White" Text="HP" FontSize="15" Foreground="Black" 
                              TextAlignment="Center"/>
-                    <Rectangle Fill="Green" Width="200"></Rectangle>
+                    <ProgressBar x:ConnectionId='5' x:Name="myHp2" Foreground="Green" Value="100" Width="200" Height="30"></ProgressBar>
                 </StackPanel>
                 <TextBox Margin="20" FontSize="25" FontWeight="Bold"  
                          FontStyle="Italic" 
@@ -132,7 +135,7 @@
                     <StackPanel>
                         <TextBox Background="White" Text="HP ENEMIGO" FontSize="15" Foreground="Black" 
                              TextAlignment="Center" Width="108"/>
-                        <Rectangle Fill="Red" Width="200" Height="30"></Rectangle>
+                        <ProgressBar x:ConnectionId='4' x:Name="EnemyHp" Foreground="Red" Value="100" Width="200" Height="30"></ProgressBar>
                     </StackPanel>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Margin="10" HorizontalAlignment="Center">
@@ -140,7 +143,7 @@
                     <StackPanel>
                         <TextBox Background="White" Text="HP TUYO" FontSize="15" Foreground="Black" 
                              TextAlignment="Center" Width="100"/>
-                        <Rectangle Fill="Green" Width="200" Height="30"></Rectangle>
+                        <ProgressBar x:ConnectionId='3' x:Name="myHp" Foreground="Green" Value="100" Width="200" Height="30"></ProgressBar>
                     </StackPanel>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal"  Margin="10" HorizontalAlignment="Center">
